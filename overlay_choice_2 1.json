@@ -1,0 +1,209 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/manifest/overlay-choice.json",
+  "type": "Manifest",
+  "label": {
+    "en": ["Copy 1 Form with Photograph as Annotation"]
+  },
+  "items": [
+    {
+      "id": "https://example.org/iiif/canvas/p1",
+      "type": "Canvas",
+      "label": { "en": ["Base image"] },
+      "width": 3508, 
+      "height": 2479,
+      "items": [
+        {
+          "id": "https://example.org/iiif/canvas/p1/painting",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/p1/base",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "type": "Choice",
+                "items": [
+                {  
+                  "id": "https://files.transkribus.eu/iiif/2/BMPGOKVFXYTGWQKQIUBCICJC/full/full/0/default.jpg",
+                  "type": "Image",
+                  "width": 3508,
+                  "height": 2479,
+                  "format": "image/jpeg",
+                    "label": {
+                      "en": [
+                        "Form with photograph folded away"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "https://files.transkribus.eu/iiif/2/RQLXKJBLBASTORRQKPQOSGJH/full/full/0/default.jpg",
+                    "type": "Image",
+                    "height": 2479,
+                    "width": 3508,
+                    "format": "image/jpeg",
+                    "label": {
+                      "en": [
+                        "Form with photograph attached"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/p1"
+            }
+          ]
+        }
+      ],
+
+      "annotations": [
+        {
+          "id": "https://example.org/iiif/canvas/p1/supplementing",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/p1/overlay",
+              "type": "Annotation",
+              "motivation": "supplementing",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/RQLXKJBLBASTORRQKPQOSGJH/475,444,2028,1302/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 2028,
+                "height": 1302
+              },
+              "target": "https://example.org/iiif/canvas/p1#xywh=475,444,2028,1302"
+            }
+          ]
+        },
+        {
+          "id": "https://example.org/iiif/canvas/p1/regions",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/anno/p001-r_1",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "label":{ "en": ["William Woollams and Company, 110 High Street, near Manchester Square, Middlesex"]},
+              "target": "https://example.org/iiif/canvas/p1#xywh=375,438,2209,332",
+              "body": [
+                { "type": "Text", 
+                  "value": "Name",
+                  "motivation": "tagging"
+                },
+                { "type": "Text",
+                  "value": "William Woollams and Company, 110 High Street, near Manchester Square, Middlesex",
+                  "motivation": "tagging"
+                }
+              ] 
+            },
+            {
+              "id": "https://example.org/iiif/anno/p001-r_2",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "label": { "en": ["Description of Work: Photograph of wall paper, massive zig zag flower ornament and foliated diaper background"] },
+              "target": "https://example.org/iiif/canvas/p1#xywh=378,784,780,794",
+              "body": [
+                { "type": "Text",
+                  "value": "Description of Work",
+                  "motivation":"tagging" },
+
+                { "type": "Text", 
+                  "value": "Photograph of wall paper, massive zig zag flower ornament and foliated diaper background}",
+                  "motivation": "identifying"}
+              ] 
+            },
+            {
+              "id": "https://example.org/iiif/anno/p001-r_3",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "label": { "en": ["Date of Agreement: 14 Feb 1883"] },
+              "target": "https://example.org/iiif/canvas/p1#xywh=1145,780,245,794",
+              "body": [
+              { "type": "Text", 
+                "value": "Date of Agreement",
+                "motivation": "tagging"
+              },
+              { "type": "Text",
+                "value": "14 Feb 1883",
+                "motivation": "identifying"
+              }
+            ]   
+            },
+            {
+              "id": "https://example.org/iiif/anno/p001-r_4",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "label": { "en": ["Name of Parties to Agreement: Bedford Lemere and Co, William Woolams and Co"] },
+              "target": "https://example.org/iiif/canvas/p1#xywh=1372,770,401,808",
+              "body": [
+              { "type": "Text", 
+                "value": "Name of Parties to Agreement",
+                "motivation": "tagging"
+              },
+              { "type": "Text",
+                "value": "Bedford Lemere and Co, William Woolams and Co",
+                "motivation": "identifying"
+              }
+            ]   
+            },
+            {
+              "id": "https://example.org/iiif/anno/p001-r_5",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "label": { "en": ["Name and Place of Abode of Proprietor of Copyright: William Woollams and Company, 110 High Street, near Manchester Square, Middlesex"] },
+              "target": "https://example.org/iiif/canvas/p1#xywh=1738,749,415,836",
+              "body": [
+              { "type": "Text", 
+                "value": "Name and Address of Copyright Owner",
+                "motivation": "tagging"
+              },
+              {"type": "Text",
+               "value": "William Woollams and Company, 110 High Street, near Manchester Square, Middlesex",
+              "motivation": "identifying"
+              }
+            ] 
+              
+            },
+            {
+              "id": "https://example.org/iiif/anno/p001-r_6",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "label": { "en": ["Name and Place of Abode of Author of Work: Bedford Lemere and Company, 147 Strand, Middlesex"] },
+              "target": "https://example.org/iiif/canvas/p1#xywh=2125,739,473,846",
+              "body": [
+              { "type": "Text", 
+                "value": "Name and Address of Author of Work",
+                "motivation": "tagging"
+              },
+              {"type": "Text",
+               "value": "Bedford Lemere and Company, 147 Strand, Middlesex",
+              "motivation": "identifying"
+              }
+            ] 
+              
+            },
+            {
+              "id": "https://example.org/iiif/anno/p001-r_7",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "label": { "en": ["Dated this 15 February 1883"] },
+              "target": "https://example.org/iiif/canvas/p1#xywh=371,1574,2213,246",
+              "body": [
+              { "type": "Text", 
+                "value": "Date",
+                "motivation": "tagging"
+              },
+              {"type": "Text",
+               "value": "15 February 1883",
+              "motivation": "identifying"
+              }
+            ] 
+              
+            }
+          ]
+        }
+      ]
+    }
+  ] 
+} 
