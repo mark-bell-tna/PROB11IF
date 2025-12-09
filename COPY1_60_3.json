@@ -1,0 +1,185 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/manifest/COPY1/60/3.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "COPY1/60/3"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/iiif/canvas/COPY1/60/3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "COPY1/60/3"
+        ]
+      },
+      "width": 3508,
+      "height": 2479,
+      "items": [
+        {
+          "id": "https://example.org/iiif/annotationpage/COPY1/60/3",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/3/form",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iiif/canvas/COPY1/60/3",
+              "body": {
+                "type": "Choice",
+                "items": [
+                  {
+                    "id": "https://files.transkribus.eu/iiif/2/TVRDLSRBPGZTIRVTWTENTVUS/full/full/0/default.jpg",
+                    "type": "Image",
+                    "width": 3508,
+                    "height": 2479,
+                    "format": "image/jpeg",
+                    "label": {
+                      "en": [
+                        "Form with photograph folded away"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "https://files.transkribus.eu/iiif/2/Y/1174,906,572,408/full/0/default.jpg",
+                    "type": "Image",
+                    "width": 408,
+                    "height": 572,
+                    "format": "image/jpeg",
+                    "label": {
+                      "en": [
+                        "Attached photograph"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/iiif/annotation/COPY1/60/3/supplementing",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/3/supplement-1",
+              "type": "Annotation",
+              "motivation": "supplementing",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/Y/1174,906,572,408/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 408,
+                "height": 572
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/3#xywh=1174,906,408,572"
+            }
+          ]
+        },
+        {
+          "id": "https://example.org/iiif/COPY1/60/3/regions",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/3/region-2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "DescriptionText"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/3#xywh=377,806,787,735",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "DescriptionText",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "'Photograph from a drawing in colours of Miss Kate Vaughan, standing, wearing flowers on her right shoulder and in her hair'. ",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/3/region-3",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "CopyrightOwner"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/3#xywh=1711,814,399,752",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightOwner",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "Fred Bauer, 21 Scarborough Street, Goodman's Fields, London.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/3/region-4",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "CopyrightAuthor"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/3#xywh=2077,806,440,769",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightAuthor",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "Fred Bauer, 21 Scarborough Street, Goodman's Fields, London.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/3/region-6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "FormCompleted"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/3#xywh=374,1536,2137,213",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "FormCompleted",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "4 February 1883[?]",
+                  "purpose": "describing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
