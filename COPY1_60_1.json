@@ -1,0 +1,163 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/manifest/COPY1/60/1.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "COPY1/60/1"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/iiif/canvas/COPY1/60/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "COPY1/60/1"
+        ]
+      },
+      "width": 3508,
+      "height": 2479,
+      "items": [
+        {
+          "id": "https://example.org/iiif/annotationpage/COPY1/60/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/1/form",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iiif/canvas/COPY1/60/1",
+              "body": {
+                "type": "Choice",
+                "items": [
+                  {
+                    "id": "https://files.transkribus.eu/iiif/2/JELYQXNBVBMYKEPOUFQUZJUW/full/full/0/default.jpg",
+                    "type": "Image",
+                    "width": 3508,
+                    "height": 2479,
+                    "format": "image/jpeg",
+                    "label": {
+                      "en": [
+                        "Form with photograph folded away"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {},
+        {
+          "id": 1,
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/1/region-1",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "DescriptionText"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/1#xywh=320,785,787,996",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "DescriptionText",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "1) 'Photograph of Lord Wolseley seated sideways, left arm on back of chair, ¾ face, cigar in right hand'. \n2) 'Photograph of Lady Wolseley ¾ face, left hand on back of chair, standing'. \nNo copy of photographs annexed. ",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/1/region-3",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "FormCompleted"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/1#xywh=323,1531,217,2184",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "FormCompleted",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "1 February 1883",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/1/region-4",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "CopyrightOwner"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/1#xywh=1682,776,806,405",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightOwner",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "R and H Timperley, Darwen, Lancashire.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/1/region-5",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "CopyrightAuthor"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/1#xywh=2070,776,808,438",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightAuthor",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "R and H Timperley, Darwen, Lancashire.",
+                  "purpose": "describing"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://example.org/iiif/annotationpage/COPY1/60/1-links",
+          "type": "AnnotationPage",
+          "items": [
+            "link",
+            "link"
+          ]
+        }
+      ]
+    }
+  ]
+}
