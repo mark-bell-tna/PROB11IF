@@ -1,0 +1,185 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/manifest/COPY1/60/15.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "COPY1/60/15"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/iiif/canvas/COPY1/60/15",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "COPY1/60/15"
+        ]
+      },
+      "width": 3508,
+      "height": 2479,
+      "items": [
+        {
+          "id": "https://example.org/iiif/annotationpage/COPY1/60/15",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/15/form",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iiif/canvas/COPY1/60/15",
+              "body": {
+                "type": "Choice",
+                "items": [
+                  {
+                    "id": "https://files.transkribus.eu/iiif/2/YOKIFLOWRFVOTDJWLJMWEVGN/full/full/0/default.jpg",
+                    "type": "Image",
+                    "width": 3508,
+                    "height": 2479,
+                    "format": "image/jpeg",
+                    "label": {
+                      "en": [
+                        "Form with photograph folded away"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "https://files.transkribus.eu/iiif/2/Y/1758,474,971,682/full/0/default.jpg",
+                    "type": "Image",
+                    "width": 682,
+                    "height": 971,
+                    "format": "image/jpeg",
+                    "label": {
+                      "en": [
+                        "Attached photograph"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/iiif/annotation/COPY1/60/15/supplementing",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/15/supplement-1",
+              "type": "Annotation",
+              "motivation": "supplementing",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/Y/1758,474,971,682/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 682,
+                "height": 971
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/15#xywh=1758,474,682,971"
+            }
+          ]
+        },
+        {
+          "id": "https://example.org/iiif/COPY1/60/15/regions",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/15/region-2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "DescriptionText"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/15#xywh=318,823,786,755",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "DescriptionText",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "'Photograph of William O'Brian Esq., MP large head and bust, nearly left profile face with spectacles'. ",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/15/region-5",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "CopyrightOwner"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/15#xywh=1662,821,389,763",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightOwner",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "William Lawrence, 5-7 Upper Sackville Street, Dublin, Ireland.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/15/region-6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "CopyrightAuthor"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/15#xywh=2035,842,436,732",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightAuthor",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "William Lawrence, 5-7 Upper Sackville Street, Dublin, Ireland.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/15/region-7",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "FormCompleted"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/15#xywh=346,1576,2141,200",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "FormCompleted",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "6 February 1883",
+                  "purpose": "describing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
