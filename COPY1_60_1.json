@@ -50,9 +50,8 @@
         }
       ],
       "annotations": [
-        {},
         {
-          "id": 1,
+          "id": "https://example.org/iiif/COPY1/60/1/regions",
           "type": "AnnotationPage",
           "items": [
             {
@@ -147,14 +146,6 @@
                 }
               ]
             }
-          ]
-        },
-        {
-          "id": "https://example.org/iiif/annotationpage/COPY1/60/1-links",
-          "type": "AnnotationPage",
-          "items": [
-            "link",
-            "link"
           ]
         }
       ]
