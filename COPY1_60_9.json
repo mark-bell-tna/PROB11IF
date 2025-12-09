@@ -71,7 +71,7 @@
               "type": "Annotation",
               "motivation": "supplementing",
               "body": {
-                "id": "https://files.transkribus.eu/iiif/2/MWWCLFVEDGEOAKZVYOEEVVTA/1770,411,1125,801/full/0/default.jpg",
+                "id": "https://files.transkribus.eu/iiif/2/MWWCLFVEDGEOAKZVYOEEVVTA/1770,411,801,1125/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 801,
