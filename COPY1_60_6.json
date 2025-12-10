@@ -20,67 +20,57 @@
       "height": 2479,
       "items": [
         {
-          "id": "https://example.org/iiif/annotationpage/COPY1/60/6",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://example.org/iiif/annotation/COPY1/60/6/form",
-              "type": "Annotation",
-              "motivation": "painting",
-              "target": "https://example.org/iiif/canvas/COPY1/60/6",
-              "body": {
-                "type": "Choice",
-                "items": [
-                  {
-                    "id": "https://files.transkribus.eu/iiif/2/HGUJEDMOLFMXBXPKUMSUJRNT/full/full/0/default.jpg",
-                    "type": "Image",
-                    "width": 3508,
-                    "height": 2479,
-                    "format": "image/jpeg",
-                    "label": {
-                      "en": [
-                        "Form with photograph folded away"
-                      ]
-                    }
-                  },
-                  {
-                    "id": "https://files.transkribus.eu/iiif/2/Y/1133,968,579,380/full/0/default.jpg",
-                    "type": "Image",
-                    "width": 380,
-                    "height": 579,
-                    "format": "image/jpeg",
-                    "label": {
-                      "en": [
-                        "Attached photograph"
-                      ]
-                    }
-                  }
-                ]
+          "id": "https://example.org/iiif/annotation/COPY1/60/6/form",
+          "type": "Annotation",
+          "motivation": "painting",
+          "target": "https://example.org/iiif/canvas/COPY1/60/6",
+          "body": {
+            "id": "https://files.transkribus.eu/iiif/2/HGUJEDMOLFMXBXPKUMSUJRNT/full/full/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "width": 3508,
+            "height": 2479,
+            "label": {
+              "en": [
+                "Form with photograph folded away"
+              ]
+            },
+            "service": [
+              {
+                "id": "https://files.transkribus.eu/iiif/2/HGUJEDMOLFMXBXPKUMSUJRNT",
+                "type": "ImageService3",
+                "profile": "level1"
               }
-            }
-          ]
+            ]
+          }
+        },
+        {
+          "id": "https://example.org/iiif/annotation/COPY1/60/6/form",
+          "type": "Annotation",
+          "motivation": "painting",
+          "target": "https://example.org/iiif/canvas/COPY1/60/6#100,100,380,579",
+          "body": {
+            "id": "https://files.transkribus.eu/iiif/2/HGUJEDMOLFMXBXPKUMSUJRNT/1133,968,579,380/full/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "width": 380,
+            "height": 579,
+            "label": {
+              "en": [
+                "photograph"
+              ]
+            },
+            "service": [
+              {
+                "id": "https://files.transkribus.eu/iiif/2/HGUJEDMOLFMXBXPKUMSUJRNT",
+                "type": "ImageService3",
+                "profile": "level1"
+              }
+            ]
+          }
         }
       ],
       "annotations": [
-        {
-          "id": "https://example.org/iiif/annotation/COPY1/60/6/supplementing",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://example.org/iiif/annotation/COPY1/60/6/supplement-1",
-              "type": "Annotation",
-              "motivation": "supplementing",
-              "body": {
-                "id": "https://files.transkribus.eu/iiif/2/Y/1133,968,579,380/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "width": 380,
-                "height": 579
-              },
-              "target": "https://example.org/iiif/canvas/COPY1/60/6#xywh=1133,968,380,579"
-            }
-          ]
-        },
         {
           "id": "https://example.org/iiif/COPY1/60/6/regions",
           "type": "AnnotationPage",
@@ -91,7 +81,7 @@
               "motivation": "commenting",
               "label": {
                 "en": [
-                  "DescriptionText"
+                  "'Photograph from a drawing in colours of Miss Connie Gilchrist, ¾ face, standing, fur mantle on her right shoulder'. "
                 ]
               },
               "target": "https://example.org/iiif/canvas/COPY1/60/6#xywh=349,840,785,757",
@@ -114,7 +104,7 @@
               "motivation": "commenting",
               "label": {
                 "en": [
-                  "CopyrightOwner"
+                  "Fred Bauer, 21 Scarborough Street, Goodman's Fields, London."
                 ]
               },
               "target": "https://example.org/iiif/canvas/COPY1/60/6#xywh=1696,842,383,775",
@@ -137,7 +127,7 @@
               "motivation": "commenting",
               "label": {
                 "en": [
-                  "CopyrightAuthor"
+                  "Fred Bauer, 21 Scarborough Street, Goodman's Fields, London."
                 ]
               },
               "target": "https://example.org/iiif/canvas/COPY1/60/6#xywh=2053,852,429,767",
@@ -160,7 +150,7 @@
               "motivation": "commenting",
               "label": {
                 "en": [
-                  "FormCompleted"
+                  "4 February 1883[?]"
                 ]
               },
               "target": "https://example.org/iiif/canvas/COPY1/60/6#xywh=338,1586,2137,212",
