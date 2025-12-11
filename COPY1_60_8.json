@@ -75,108 +75,108 @@
             }
           ]
         }
-      ]
-    }
-  ],
-  "annotations": [
-    {
-      "id": "https://example.org/iiif/COPY1/60/8/regions",
-      "type": "AnnotationPage",
-      "items": [
-        [
-          {
-            "id": "https://example.org/iiif/annotation/COPY1/60/8/region-2",
-            "type": "Annotation",
-            "motivation": "commenting",
-            "label": {
-              "en": [
-                "'Photograph of St Finbar's Cathedral, Cork, south view showing graveyard in foreground'. "
-              ]
-            },
-            "target": "https://example.org/iiif/canvas/COPY1/60/8#xywh=351,769,783,786",
-            "body": [
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/iiif/COPY1/60/8/regions",
+          "type": "AnnotationPage",
+          "items": [
+            [
               {
-                "type": "Text",
-                "value": "DescriptionText",
-                "purpose": "tagging"
+                "id": "https://example.org/iiif/annotation/COPY1/60/8/region-2",
+                "type": "Annotation",
+                "motivation": "commenting",
+                "label": {
+                  "en": [
+                    "'Photograph of St Finbar's Cathedral, Cork, south view showing graveyard in foreground'. "
+                  ]
+                },
+                "target": "https://example.org/iiif/canvas/COPY1/60/8#xywh=351,769,783,786",
+                "body": [
+                  {
+                    "type": "Text",
+                    "value": "DescriptionText",
+                    "purpose": "tagging"
+                  },
+                  {
+                    "type": "Text",
+                    "value": "'Photograph of St Finbar's Cathedral, Cork, south view showing graveyard in foreground'. ",
+                    "purpose": "describing"
+                  }
+                ]
               },
               {
-                "type": "Text",
-                "value": "'Photograph of St Finbar's Cathedral, Cork, south view showing graveyard in foreground'. ",
-                "purpose": "describing"
-              }
-            ]
-          },
-          {
-            "id": "https://example.org/iiif/annotation/COPY1/60/8/region-5",
-            "type": "Annotation",
-            "motivation": "commenting",
-            "label": {
-              "en": [
-                "William Lawrence, 5-7 Upper Sackville Street, Dublin, Ireland."
-              ]
-            },
-            "target": "https://example.org/iiif/canvas/COPY1/60/8#xywh=1703,781,401,788",
-            "body": [
-              {
-                "type": "Text",
-                "value": "CopyrightOwner",
-                "purpose": "tagging"
+                "id": "https://example.org/iiif/annotation/COPY1/60/8/region-5",
+                "type": "Annotation",
+                "motivation": "commenting",
+                "label": {
+                  "en": [
+                    "William Lawrence, 5-7 Upper Sackville Street, Dublin, Ireland."
+                  ]
+                },
+                "target": "https://example.org/iiif/canvas/COPY1/60/8#xywh=1703,781,401,788",
+                "body": [
+                  {
+                    "type": "Text",
+                    "value": "CopyrightOwner",
+                    "purpose": "tagging"
+                  },
+                  {
+                    "type": "Text",
+                    "value": "William Lawrence, 5-7 Upper Sackville Street, Dublin, Ireland.",
+                    "purpose": "describing"
+                  }
+                ]
               },
               {
-                "type": "Text",
-                "value": "William Lawrence, 5-7 Upper Sackville Street, Dublin, Ireland.",
-                "purpose": "describing"
-              }
-            ]
-          },
-          {
-            "id": "https://example.org/iiif/annotation/COPY1/60/8/region-6",
-            "type": "Annotation",
-            "motivation": "commenting",
-            "label": {
-              "en": [
-                "William Lawrence, 5-7 Upper Sackville Street, Dublin, Ireland."
-              ]
-            },
-            "target": "https://example.org/iiif/canvas/COPY1/60/8#xywh=2072,789,458,787",
-            "body": [
-              {
-                "type": "Text",
-                "value": "CopyrightAuthor",
-                "purpose": "tagging"
+                "id": "https://example.org/iiif/annotation/COPY1/60/8/region-6",
+                "type": "Annotation",
+                "motivation": "commenting",
+                "label": {
+                  "en": [
+                    "William Lawrence, 5-7 Upper Sackville Street, Dublin, Ireland."
+                  ]
+                },
+                "target": "https://example.org/iiif/canvas/COPY1/60/8#xywh=2072,789,458,787",
+                "body": [
+                  {
+                    "type": "Text",
+                    "value": "CopyrightAuthor",
+                    "purpose": "tagging"
+                  },
+                  {
+                    "type": "Text",
+                    "value": "William Lawrence, 5-7 Upper Sackville Street, Dublin, Ireland.",
+                    "purpose": "describing"
+                  }
+                ]
               },
               {
-                "type": "Text",
-                "value": "William Lawrence, 5-7 Upper Sackville Street, Dublin, Ireland.",
-                "purpose": "describing"
+                "id": "https://example.org/iiif/annotation/COPY1/60/8/region-7",
+                "type": "Annotation",
+                "motivation": "commenting",
+                "label": {
+                  "en": [
+                    "1 February 1883"
+                  ]
+                },
+                "target": "https://example.org/iiif/canvas/COPY1/60/8#xywh=363,1543,2190,228",
+                "body": [
+                  {
+                    "type": "Text",
+                    "value": "FormCompleted",
+                    "purpose": "tagging"
+                  },
+                  {
+                    "type": "Text",
+                    "value": "1 February 1883",
+                    "purpose": "describing"
+                  }
+                ]
               }
             ]
-          },
-          {
-            "id": "https://example.org/iiif/annotation/COPY1/60/8/region-7",
-            "type": "Annotation",
-            "motivation": "commenting",
-            "label": {
-              "en": [
-                "1 February 1883"
-              ]
-            },
-            "target": "https://example.org/iiif/canvas/COPY1/60/8#xywh=363,1543,2190,228",
-            "body": [
-              {
-                "type": "Text",
-                "value": "FormCompleted",
-                "purpose": "tagging"
-              },
-              {
-                "type": "Text",
-                "value": "1 February 1883",
-                "purpose": "describing"
-              }
-            ]
-          }
-        ]
+          ]
+        }
       ]
     }
   ]
