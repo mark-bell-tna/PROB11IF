@@ -42,19 +42,6 @@
                 ]
               },
               "target": "https://example.org/iiif/canvas/COPY1/60/20"
-            },
-            {
-              "id": "https://example.org/iiif/annotation/COPY1/60/20/photo",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://files.transkribus.eu/iiif/2/IYNDVSPGRDVEJZJGMFQOGKMW/1222,961,399,626/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "width": 399,
-                "height": 626
-              },
-              "target": "https://example.org/iiif/canvas/COPY1/60/20#xywh=100,100,399,626"
             }
           ]
         }

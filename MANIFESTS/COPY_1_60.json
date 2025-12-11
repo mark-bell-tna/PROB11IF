@@ -536,6 +536,91 @@
       ]
     },
     {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_32.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/32"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/XFIGADWDULNAIFCVEGNAFWJA/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_33.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/33"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/XMJCLGXQTGRDMSMHESYXYMZN/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_34.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/34"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/WOBKKSIYCUBHXYTDKDCCPSTR/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_35.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/35"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/WNREOWJDRLBERXMJSVGBHLUT/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_37.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/37"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/YHYDRJADJOCGUIRXPKYSUIHV/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
       "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_50.json",
       "type": "Manifest",
       "label": {
