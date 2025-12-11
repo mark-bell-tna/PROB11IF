@@ -20,6 +20,9 @@
       "height": 2479,
       "items": [
         {
+          "id" : "https://example.org/iiif/annotationpage/COPY1/60/1",
+          "type" : "AnnotationPage",
+          "items": [
           "id": "https://example.org/iiif/annotation/COPY1/60/1/form",
           "type": "Annotation",
           "motivation": "painting",
@@ -43,6 +46,7 @@
               }
             ]
           }
+          ]
         }
       ],
       "annotations": [
