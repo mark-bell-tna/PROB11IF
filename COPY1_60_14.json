@@ -48,13 +48,113 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://files.transkribus.eu/iiif/2/WIUXRUUIJHEPULCRMJXYBUCZ/2044,444,586,364/full/0/default.jpg",
+                "id": "https://files.transkribus.eu/iiif/2/WIUXRUUIJHEPULCRMJXYBUCZ/2044,444,364,586/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 364,
                 "height": 586
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/14#100,100,364,586"
+              "target": "https://example.org/iiif/canvas/COPY1/60/14#xywh=100,100,364,586"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/iiif/COPY1/60/14/regions",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/14/region-2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "'Photograph of William O'Brian Esq., MP nearly left profile face'. "
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/14#xywh=296,773,788,784",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "DescriptionText",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "'Photograph of William O'Brian Esq., MP nearly left profile face'. ",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/14/region-5",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "William Lawrence, 5-7 Upper Sackville Street, Dublin, Ireland."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/14#xywh=1644,806,393,782",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightOwner",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "William Lawrence, 5-7 Upper Sackville Street, Dublin, Ireland.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/14/region-6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "William Lawrence, 5-7 Upper Sackville Street, Dublin, Ireland."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/14#xywh=2015,831,441,758",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightAuthor",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "William Lawrence, 5-7 Upper Sackville Street, Dublin, Ireland.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/14/region-7",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "6 February 1883"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/14#xywh=306,1567,2106,204",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "FormCompleted",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "6 February 1883",
+                  "purpose": "describing"
+                }
+              ]
             }
           ]
         }
