@@ -24,7 +24,7 @@
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/iiif/annotation/COPY1/60/4/form",
+              "id": "https://example.org/iiif/annotation/COPY1/60/4",
               "type": "Annotation",
               "motivation": "painting",
               "target": "https://example.org/iiif/canvas/COPY1/60/4",
@@ -49,7 +49,7 @@
               }
             },
             {
-              "id": "https://example.org/iiif/annotation/COPY1/60/4/form",
+              "id": "https://example.org/iiif/annotation/COPY1/60/4/photo",
               "type": "Annotation",
               "motivation": "painting",
               "target": "https://example.org/iiif/canvas/COPY1/60/4#100,100,395,604",
@@ -63,14 +63,7 @@
                   "en": [
                     "photograph"
                   ]
-                },
-                "service": [
-                  {
-                    "id": "https://files.transkribus.eu/iiif/2/HFONUFBFKRMQGMMVFVAYRDQP",
-                    "type": "ImageService3",
-                    "profile": "level1"
-                  }
-                ]
+                }
               }
             }
           ]
