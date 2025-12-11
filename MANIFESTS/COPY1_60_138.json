@@ -1,0 +1,164 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/manifest/COPY1/60/138.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "COPY1/60/138"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/iiif/canvas/COPY1/60/138",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "COPY1/60/138"
+        ]
+      },
+      "width": 3508,
+      "height": 2479,
+      "items": [
+        {
+          "id": "https://example.org/iiif/annotationpage/COPY1/60/138",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/138",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/OAJQZGHOGPVODLJRMCDZRTMR/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3508,
+                "height": 2479,
+                "service": [
+                  {
+                    "id": "https://files.transkribus.eu/iiif/2/OAJQZGHOGPVODLJRMCDZRTMR",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/138"
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/138/photo",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/OAJQZGHOGPVODLJRMCDZRTMR/1810,522,840,1119/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 840,
+                "height": 1119
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/138#xywh=100,100,840,1119"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/iiif/COPY1/60/138/regions",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/138/region-2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "'Photograph of P J Tynan (No 2) in volunteer uniform looking to his right'. "
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/138#xywh=355,921,802,829",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "DescriptionText",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "'Photograph of P J Tynan (No 2) in volunteer uniform looking to his right'. ",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/138/region-5",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "Thomas George Hennery, 13 Hanover Street, Peckham SE."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/138#xywh=1799,913,440,838",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightOwner",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "Thomas George Hennery, 13 Hanover Street, Peckham SE.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/138/region-6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "Thomas George Hennery, 13 Hanover Street, Peckham SE."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/138#xywh=2242,913,440,828",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightAuthor",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "Thomas George Hennery, 13 Hanover Street, Peckham SE.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/138/region-7",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "30 March 1883"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/138#xywh=355,1735,2327,212",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "FormCompleted",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "30 March 1883",
+                  "purpose": "describing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

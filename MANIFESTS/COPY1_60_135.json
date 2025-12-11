@@ -1,0 +1,164 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/manifest/COPY1/60/135.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "COPY1/60/135"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/iiif/canvas/COPY1/60/135",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "COPY1/60/135"
+        ]
+      },
+      "width": 3508,
+      "height": 2479,
+      "items": [
+        {
+          "id": "https://example.org/iiif/annotationpage/COPY1/60/135",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/135",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/BEAHEHYVFAAHLCDHDCKHQOOR/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3508,
+                "height": 2479,
+                "service": [
+                  {
+                    "id": "https://files.transkribus.eu/iiif/2/BEAHEHYVFAAHLCDHDCKHQOOR",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/135"
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/135/photo",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/BEAHEHYVFAAHLCDHDCKHQOOR/1167,951,737,939/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 737,
+                "height": 939
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/135#xywh=100,100,737,939"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/iiif/COPY1/60/135/regions",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/135/region-2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "'Photograph of Mrs Langtry taken from a drawing, lace on head and shoulders, holding fan'. "
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/135#xywh=405,911,770,780",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "DescriptionText",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "'Photograph of Mrs Langtry taken from a drawing, lace on head and shoulders, holding fan'. ",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/135/region-3",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "Fred Bauer, 21 Scarborough Street, Goodman's Fields, London."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/135#xywh=1892,886,363,830",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightOwner",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "Fred Bauer, 21 Scarborough Street, Goodman's Fields, London.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/135/region-5",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "Fred Bauer, 21 Scarborough Street, Goodman's Fields, London."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/135#xywh=2237,881,479,835",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightAuthor",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "Fred Bauer, 21 Scarborough Street, Goodman's Fields, London.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/135/region-6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "6 January 1883"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/135#xywh=415,1718,2301,207",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "FormCompleted",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "6 January 1883",
+                  "purpose": "describing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

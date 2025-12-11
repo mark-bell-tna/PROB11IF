@@ -1,0 +1,164 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/manifest/COPY1/60/120.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "COPY1/60/120"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/iiif/canvas/COPY1/60/120",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "COPY1/60/120"
+        ]
+      },
+      "width": 3508,
+      "height": 2479,
+      "items": [
+        {
+          "id": "https://example.org/iiif/annotationpage/COPY1/60/120",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/120",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/DINJXLCZSQPDZUKMRFDPILZP/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3508,
+                "height": 2479,
+                "service": [
+                  {
+                    "id": "https://files.transkribus.eu/iiif/2/DINJXLCZSQPDZUKMRFDPILZP",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/120"
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/120/photo",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/DINJXLCZSQPDZUKMRFDPILZP/262,510,385,630/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 385,
+                "height": 630
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/120#xywh=100,100,385,630"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/iiif/COPY1/60/120/regions",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/120/region-3",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "'Photograph of Mary Birkett who died December 18th 1882 aged 102. Hands partly closed on lap'. "
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/120#xywh=243,896,870,823",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "DescriptionText",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "'Photograph of Mary Birkett who died December 18th 1882 aged 102. Hands partly closed on lap'. ",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/120/region-4",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "William Moscrop, Black Hall, Kendal."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/120#xywh=1664,884,473,818",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightOwner",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "William Moscrop, Black Hall, Kendal.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/120/region-5",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "William Moscrop, Black Hall, Kendal."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/120#xywh=2060,893,471,809",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightAuthor",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "William Moscrop, Black Hall, Kendal.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/120/region-6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "10 January 1883"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/120#xywh=277,1691,2248,211",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "FormCompleted",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "10 January 1883",
+                  "purpose": "describing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

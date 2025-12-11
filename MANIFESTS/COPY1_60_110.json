@@ -1,0 +1,164 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/manifest/COPY1/60/110.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "COPY1/60/110"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/iiif/canvas/COPY1/60/110",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "COPY1/60/110"
+        ]
+      },
+      "width": 3508,
+      "height": 2479,
+      "items": [
+        {
+          "id": "https://example.org/iiif/annotationpage/COPY1/60/110",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/110",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/JPPSNOGZAWJVCOLOMPCFBJOQ/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3508,
+                "height": 2479,
+                "service": [
+                  {
+                    "id": "https://files.transkribus.eu/iiif/2/JPPSNOGZAWJVCOLOMPCFBJOQ",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/110"
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/110/photo",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/JPPSNOGZAWJVCOLOMPCFBJOQ/288,495,790,1168/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 790,
+                "height": 1168
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/110#xywh=100,100,790,1168"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/iiif/COPY1/60/110/regions",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/110/region-3",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "George Swan Nottage and Howard John Kennard, 54 Cheapside and 110 Regent Street, London."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/110#xywh=1719,869,437,797",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightOwner",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "George Swan Nottage and Howard John Kennard, 54 Cheapside and 110 Regent Street, London.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/110/region-4",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "George Swan Nottage and Howard John Kennard, 54 Cheapside and 110 Regent Street, London."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/110#xywh=2128,873,458,789",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightAuthor",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "George Swan Nottage and Howard John Kennard, 54 Cheapside and 110 Regent Street, London.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/110/region-5",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "'Photograph of Lord Wolseley in general officers uniform with decorations, face almost profile looking to his right, slightly upwards'. "
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/110#xywh=306,858,763,800",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "DescriptionText",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "'Photograph of Lord Wolseley in general officers uniform with decorations, face almost profile looking to his right, slightly upwards'. ",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/110/region-6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "29 January 1883"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/110#xywh=289,1624,2295,253",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "FormCompleted",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "29 January 1883",
+                  "purpose": "describing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

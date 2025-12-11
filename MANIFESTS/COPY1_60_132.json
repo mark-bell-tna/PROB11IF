@@ -1,0 +1,164 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/manifest/COPY1/60/132.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "COPY1/60/132"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/iiif/canvas/COPY1/60/132",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "COPY1/60/132"
+        ]
+      },
+      "width": 3508,
+      "height": 2479,
+      "items": [
+        {
+          "id": "https://example.org/iiif/annotationpage/COPY1/60/132",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/132",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/IOXBOPFVZXULVJIKFWCQLXSD/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3508,
+                "height": 2479,
+                "service": [
+                  {
+                    "id": "https://files.transkribus.eu/iiif/2/IOXBOPFVZXULVJIKFWCQLXSD",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/132"
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/132/photo",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/IOXBOPFVZXULVJIKFWCQLXSD/1347,1047,425,647/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 425,
+                "height": 647
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/132#xywh=100,100,425,647"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/iiif/COPY1/60/132/regions",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/132/region-2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "'Photograph from a statuette of a Punchinello with fingers together on breast'. "
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/132#xywh=365,931,961,833",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "DescriptionText",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "'Photograph from a statuette of a Punchinello with fingers together on breast'. ",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/132/region-3",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "Thomas Henry Rothwell, 122 Bolton Road, Pendelton near Manchester."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/132#xywh=1846,915,411,836",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightOwner",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "Thomas Henry Rothwell, 122 Bolton Road, Pendelton near Manchester.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/132/region-4",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "Thomas Henry Rothwell, 122 Bolton Road, Pendelton near Manchester."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/132#xywh=2248,915,456,834",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightAuthor",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "Thomas Henry Rothwell, 122 Bolton Road, Pendelton near Manchester.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/132/region-6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "11 January 1883"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/132#xywh=363,1722,2337,225",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "FormCompleted",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "11 January 1883",
+                  "purpose": "describing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

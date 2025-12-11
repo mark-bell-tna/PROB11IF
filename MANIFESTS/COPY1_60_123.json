@@ -1,0 +1,164 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/manifest/COPY1/60/123.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "COPY1/60/123"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/iiif/canvas/COPY1/60/123",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "COPY1/60/123"
+        ]
+      },
+      "width": 3508,
+      "height": 2479,
+      "items": [
+        {
+          "id": "https://example.org/iiif/annotationpage/COPY1/60/123",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/123",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/RLLXCZDISLTBYHBGHOWMGQZG/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3508,
+                "height": 2479,
+                "service": [
+                  {
+                    "id": "https://files.transkribus.eu/iiif/2/RLLXCZDISLTBYHBGHOWMGQZG",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/123"
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/123/photo",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/RLLXCZDISLTBYHBGHOWMGQZG/1592,675,806,1037/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 806,
+                "height": 1037
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/123#xywh=100,100,806,1037"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/iiif/COPY1/60/123/regions",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/123/region-2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "'Photograph of the Countess of Dudley nearly full face looking to her right, with square cut low dress'. \nNo copy of photograph annexed. "
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/123#xywh=341,908,922,836",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "DescriptionText",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "'Photograph of the Countess of Dudley nearly full face looking to her right, with square cut low dress'. \nNo copy of photograph annexed. ",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/123/region-4",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "W and D Downey, 57 Ebury Street, London."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/123#xywh=1782,886,459,866",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightOwner",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "W and D Downey, 57 Ebury Street, London.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/123/region-5",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "W and D Downey, 57 Ebury Street, London."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/123#xywh=2233,894,428,855",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightAuthor",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "W and D Downey, 57 Ebury Street, London.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/123/region-6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "18 January 1883"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/123#xywh=358,1707,2303,228",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "FormCompleted",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "18 January 1883",
+                  "purpose": "describing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

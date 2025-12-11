@@ -1,0 +1,210 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/manifest/COPY1/60/150.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "COPY1/60/150"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/iiif/canvas/COPY1/60/150",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "COPY1/60/150"
+        ]
+      },
+      "width": 3508,
+      "height": 2479,
+      "items": [
+        {
+          "id": "https://example.org/iiif/annotationpage/COPY1/60/150",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/150",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/AGSYTPEGXEYYPYXOPDPWESPX/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3508,
+                "height": 2479,
+                "service": [
+                  {
+                    "id": "https://files.transkribus.eu/iiif/2/AGSYTPEGXEYYPYXOPDPWESPX",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/150"
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/150/photo",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/AGSYTPEGXEYYPYXOPDPWESPX/1885,653,677,1060/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 677,
+                "height": 1060
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/150#xywh=100,100,677,1060"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/iiif/COPY1/60/150/regions",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/150/region-2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "'Photograph of a drawing of Mr Henry Irving as Benedick, standing right hand to face, full figure'. "
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/150#xywh=332,781,766,801",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "DescriptionText",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "'Photograph of a drawing of Mr Henry Irving as Benedick, standing right hand to face, full figure'. ",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/150/region-3",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "5 March 1883"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/150#xywh=1093,786,275,796",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "DateOfAgreement",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "5 March 1883",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/150/region-4",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "Ethel Webling, and Henry Baldwin William Luks."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/150#xywh=1327,790,448,794",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "PartiesToAgreement",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "Ethel Webling, and Henry Baldwin William Luks.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/150/region-5",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "Henry Baldwin William Luks, 35 Breakspeare Road, New Cross SE."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/150#xywh=1774,783,377,793",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightOwner",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "Henry Baldwin William Luks, 35 Breakspeare Road, New Cross SE.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/150/region-7",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "Henry Baldwin William Luks, 35 Breakspeare Road, New Cross SE."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/150#xywh=2151,786,405,790",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightAuthor",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "Henry Baldwin William Luks, 35 Breakspeare Road, New Cross SE.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/150/region-9",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "28 March 1883"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/150#xywh=329,1555,2234,231",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "FormCompleted",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "28 March 1883",
+                  "purpose": "describing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

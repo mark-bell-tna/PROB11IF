@@ -1,0 +1,164 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/manifest/COPY1/60/111.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "COPY1/60/111"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/iiif/canvas/COPY1/60/111",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "COPY1/60/111"
+        ]
+      },
+      "width": 3508,
+      "height": 2479,
+      "items": [
+        {
+          "id": "https://example.org/iiif/annotationpage/COPY1/60/111",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/111",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/JNXUVIHGBYWSUFAALCAGMCKL/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3508,
+                "height": 2479,
+                "service": [
+                  {
+                    "id": "https://files.transkribus.eu/iiif/2/JNXUVIHGBYWSUFAALCAGMCKL",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/111"
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/111/photo",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/JNXUVIHGBYWSUFAALCAGMCKL/250,507,805,1169/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 805,
+                "height": 1169
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/111#xywh=100,100,805,1169"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/iiif/COPY1/60/111/regions",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/111/region-3",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "'Photograph of Lord Wolseley in General officers uniform with decorations, face nearly in profile turned to his right'. "
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/111#xywh=262,887,874,835",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "DescriptionText",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "'Photograph of Lord Wolseley in General officers uniform with decorations, face nearly in profile turned to his right'. ",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/111/region-4",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "George Swan Nottage and Howard John Kennard, 54 Cheapside and 110 Regent Street, London."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/111#xywh=1772,889,423,842",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightOwner",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "George Swan Nottage and Howard John Kennard, 54 Cheapside and 110 Regent Street, London.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/111/region-5",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "George Swan Nottage and Howard John Kennard, 54 Cheapside and 110 Regent Street, London."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/111#xywh=2175,889,490,840",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightAuthor",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "George Swan Nottage and Howard John Kennard, 54 Cheapside and 110 Regent Street, London.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/111/region-6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "29 January 1883"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/111#xywh=296,1708,2362,229",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "FormCompleted",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "29 January 1883",
+                  "purpose": "describing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

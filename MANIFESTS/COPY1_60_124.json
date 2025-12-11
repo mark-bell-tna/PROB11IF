@@ -1,0 +1,164 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/manifest/COPY1/60/124.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "COPY1/60/124"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/iiif/canvas/COPY1/60/124",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "COPY1/60/124"
+        ]
+      },
+      "width": 3508,
+      "height": 2479,
+      "items": [
+        {
+          "id": "https://example.org/iiif/annotationpage/COPY1/60/124",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/124",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/LEPVMZJYYPKUFKAUZASOUQMY/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3508,
+                "height": 2479,
+                "service": [
+                  {
+                    "id": "https://files.transkribus.eu/iiif/2/LEPVMZJYYPKUFKAUZASOUQMY",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/124"
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/124/photo",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/LEPVMZJYYPKUFKAUZASOUQMY/289,528,523,750/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 523,
+                "height": 750
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/124#xywh=100,100,523,750"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/iiif/COPY1/60/124/regions",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/124/region-3",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "'Photograph of Fannie Leslie (Mrs W Gooch) leaning over and washing clothes in tub'. "
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/124#xywh=292,908,834,827",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "DescriptionText",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "'Photograph of Fannie Leslie (Mrs W Gooch) leaning over and washing clothes in tub'. ",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/124/region-4",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "Edward Smith, 3 Cheapside, London."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/124#xywh=1711,914,453,798",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightOwner",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "Edward Smith, 3 Cheapside, London.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/124/region-5",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "Edward Smith, 3 Cheapside, London."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/124#xywh=2124,908,465,801",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightAuthor",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "Edward Smith, 3 Cheapside, London.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/124/region-6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "17 January 1883"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/124#xywh=301,1718,2288,191",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "FormCompleted",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "17 January 1883",
+                  "purpose": "describing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

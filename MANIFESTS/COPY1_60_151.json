@@ -1,0 +1,164 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/manifest/COPY1/60/151.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "COPY1/60/151"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/iiif/canvas/COPY1/60/151",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "COPY1/60/151"
+        ]
+      },
+      "width": 3508,
+      "height": 2479,
+      "items": [
+        {
+          "id": "https://example.org/iiif/annotationpage/COPY1/60/151",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/151",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/SAKLKHOQQWUHNBEELUONXONF/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3508,
+                "height": 2479,
+                "service": [
+                  {
+                    "id": "https://files.transkribus.eu/iiif/2/SAKLKHOQQWUHNBEELUONXONF",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/151"
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/151/photo",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/SAKLKHOQQWUHNBEELUONXONF/1574,378,1036,744/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1036,
+                "height": 744
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/151#xywh=100,100,1036,744"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/iiif/COPY1/60/151/regions",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/151/region-2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "'Photograph of Government Offices, Charles Street, Westminster shewing the site of explosion of March 15th 1883'. "
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/151#xywh=325,799,807,794",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "DescriptionText",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "'Photograph of Government Offices, Charles Street, Westminster shewing the site of explosion of March 15th 1883'. ",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/151/region-3",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "Frederick William Evans, 246 Old Kent Road SE."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/151#xywh=1734,780,452,813",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightOwner",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "Frederick William Evans, 246 Old Kent Road SE.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/151/region-4",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "Frederick William Evans, 246 Old Kent Road SE."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/151#xywh=2152,783,445,810",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightAuthor",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "Frederick William Evans, 246 Old Kent Road SE.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/151/region-7",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "22 March 1883"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/151#xywh=331,1514,2269,258",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "FormCompleted",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "22 March 1883",
+                  "purpose": "describing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

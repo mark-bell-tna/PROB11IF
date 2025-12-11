@@ -1,0 +1,164 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/manifest/COPY1/60/97.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "COPY1/60/97"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/iiif/canvas/COPY1/60/97",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "COPY1/60/97"
+        ]
+      },
+      "width": 3508,
+      "height": 2479,
+      "items": [
+        {
+          "id": "https://example.org/iiif/annotationpage/COPY1/60/97",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/97",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/ERYVFBTTRGSRCWRYAKZQNKZE/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3508,
+                "height": 2479,
+                "service": [
+                  {
+                    "id": "https://files.transkribus.eu/iiif/2/ERYVFBTTRGSRCWRYAKZQNKZE",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/97"
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/97/photo",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/ERYVFBTTRGSRCWRYAKZQNKZE/321,495,761,1103/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 761,
+                "height": 1103
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/97#xywh=100,100,761,1103"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/iiif/COPY1/60/97/regions",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/97/region-2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "'Photograph of Miss Eastlake seated, leaning over back of chair, hands to face, nearly profile face, in hood'. "
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/97#xywh=323,858,990,881",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "DescriptionText",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "'Photograph of Miss Eastlake seated, leaning over back of chair, hands to face, nearly profile face, in hood'. ",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/97/region-4",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "Alexander Bassano, 25 Old Bond Street, London."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/97#xywh=1696,853,455,877",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightOwner",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "Alexander Bassano, 25 Old Bond Street, London.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/97/region-5",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "31 January 1883"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/97#xywh=317,1706,2309,248",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "FormCompleted",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "31 January 1883",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/97/region-6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "Alexander Bassano, 25 Old Bond Street, London."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/97#xywh=2122,858,500,870",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightAuthor",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "Alexander Bassano, 25 Old Bond Street, London.",
+                  "purpose": "describing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

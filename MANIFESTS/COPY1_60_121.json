@@ -1,0 +1,164 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/manifest/COPY1/60/121.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "COPY1/60/121"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/iiif/canvas/COPY1/60/121",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "COPY1/60/121"
+        ]
+      },
+      "width": 3508,
+      "height": 2479,
+      "items": [
+        {
+          "id": "https://example.org/iiif/annotationpage/COPY1/60/121",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/121",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/WBYILLWPCMTPWBIRVVJUXTQH/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3508,
+                "height": 2479,
+                "service": [
+                  {
+                    "id": "https://files.transkribus.eu/iiif/2/WBYILLWPCMTPWBIRVVJUXTQH",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/121"
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/121/photo",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/WBYILLWPCMTPWBIRVVJUXTQH/1072,1020,686,693/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 686,
+                "height": 693
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/121#xywh=100,100,686,693"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/iiif/COPY1/60/121/regions",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/121/region-2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "'Photograph of a foot and part of a leg wearing a knitted sock'. "
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/121#xywh=269,889,804,829",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "DescriptionText",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "'Photograph of a foot and part of a leg wearing a knitted sock'. ",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/121/region-3",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "Hine Parker and Company, 13-14 Milk Street and 24 Gresham Street, London."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/121#xywh=1736,894,478,803",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightOwner",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "Hine Parker and Company, 13-14 Milk Street and 24 Gresham Street, London.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/121/region-4",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "William Wilson and Company, 103 Cheapside, London."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/121#xywh=2120,889,474,801",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightAuthor",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "William Wilson and Company, 103 Cheapside, London.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/121/region-6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "19 January 1883"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/121#xywh=269,1695,2299,205",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "FormCompleted",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "19 January 1883",
+                  "purpose": "describing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

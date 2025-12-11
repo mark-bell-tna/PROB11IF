@@ -1,0 +1,164 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/manifest/COPY1/60/126.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "COPY1/60/126"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/iiif/canvas/COPY1/60/126",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "COPY1/60/126"
+        ]
+      },
+      "width": 3508,
+      "height": 2479,
+      "items": [
+        {
+          "id": "https://example.org/iiif/annotationpage/COPY1/60/126",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/126",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/NPMHBQEJYMHFMIWQIPAWYTYF/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3508,
+                "height": 2479,
+                "service": [
+                  {
+                    "id": "https://files.transkribus.eu/iiif/2/NPMHBQEJYMHFMIWQIPAWYTYF",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/126"
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/126/photo",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/NPMHBQEJYMHFMIWQIPAWYTYF/1434,1049,446,684/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 446,
+                "height": 684
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/126#xywh=100,100,446,684"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/iiif/COPY1/60/126/regions",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/126/region-2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "'Photograph of a girl sitting asleep in a chair with dog and cat on her lap, at a table with a workbox upon it'. "
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/126#xywh=295,912,871,833",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "DescriptionText",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "'Photograph of a girl sitting asleep in a chair with dog and cat on her lap, at a table with a workbox upon it'. ",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/126/region-4",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "William Wort, Ashby House, Sutton Coldfield near Birmingham."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/126#xywh=1808,930,382,828",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightOwner",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "William Wort, Ashby House, Sutton Coldfield near Birmingham.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/126/region-5",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "William Wort, Ashby House, Sutton Coldfield near Birmingham."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/126#xywh=2185,928,481,832",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightAuthor",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "William Wort, Ashby House, Sutton Coldfield near Birmingham.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/126/region-6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "15 January 1883"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/126#xywh=295,1742,2312,220",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "FormCompleted",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "15 January 1883",
+                  "purpose": "describing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

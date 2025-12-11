@@ -1,0 +1,164 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/manifest/COPY1/60/139.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "COPY1/60/139"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/iiif/canvas/COPY1/60/139",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "COPY1/60/139"
+        ]
+      },
+      "width": 3508,
+      "height": 2479,
+      "items": [
+        {
+          "id": "https://example.org/iiif/annotationpage/COPY1/60/139",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/139",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/XKIYRAJONTPJJTTSUHLRIJWL/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3508,
+                "height": 2479,
+                "service": [
+                  {
+                    "id": "https://files.transkribus.eu/iiif/2/XKIYRAJONTPJJTTSUHLRIJWL",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/139"
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/139/photo",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/XKIYRAJONTPJJTTSUHLRIJWL/334,381,713,1047/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 713,
+                "height": 1047
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/139#xywh=100,100,713,1047"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/iiif/COPY1/60/139/regions",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/139/region-3",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "'Photograph of the Reverend John Sampson, the Cornish evangelist, seated with right arm resting on table'. "
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/139#xywh=339,773,863,801",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "DescriptionText",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "'Photograph of the Reverend John Sampson, the Cornish evangelist, seated with right arm resting on table'. ",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/139/region-4",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "Edmund Eccles, Broad Street, Bury, Lancashire."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/139#xywh=1776,783,403,796",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightOwner",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "Edmund Eccles, Broad Street, Bury, Lancashire.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/139/region-5",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "Edmund Eccles, Broad Street, Bury, Lancashire."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/139#xywh=2174,783,468,793",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightAuthor",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "Edmund Eccles, Broad Street, Bury, Lancashire.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/139/region-7",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "7 March 1883"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/139#xywh=339,1562,2303,229",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "FormCompleted",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "7 March 1883",
+                  "purpose": "describing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

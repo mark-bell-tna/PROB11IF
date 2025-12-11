@@ -1,0 +1,164 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/manifest/COPY1/60/30.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "COPY1/60/30"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/iiif/canvas/COPY1/60/30",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "COPY1/60/30"
+        ]
+      },
+      "width": 3508,
+      "height": 2479,
+      "items": [
+        {
+          "id": "https://example.org/iiif/annotationpage/COPY1/60/30",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/30",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/WSWZIQAHZOQBJSHTNAMLAVEW/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3508,
+                "height": 2479,
+                "service": [
+                  {
+                    "id": "https://files.transkribus.eu/iiif/2/WSWZIQAHZOQBJSHTNAMLAVEW",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/30"
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/30/photo",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/TRWFGHVOVCOLZVDCTIRXTTEZ/1839,436,685,972/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 685,
+                "height": 972
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/30#xywh=100,100,685,972"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/iiif/COPY1/60/30/regions",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/30/region-2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "'Photograph of J P Quinn Esq., large head and bust, right three quarter face'. "
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/30#xywh=418,825,813,808",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "DescriptionText",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "'Photograph of J P Quinn Esq., large head and bust, right three quarter face'. ",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/30/region-5",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "William Lawrence, 5-7 Upper Sackville Street, Dublin, Ireland."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/30#xywh=1819,818,398,809",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightOwner",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "William Lawrence, 5-7 Upper Sackville Street, Dublin, Ireland.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/30/region-6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "William Lawrence, 5-7 Upper Sackville Street, Dublin, Ireland."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/30#xywh=2201,836,455,794",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightAuthor",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "William Lawrence, 5-7 Upper Sackville Street, Dublin, Ireland.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/30/region-7",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "8 February 1883"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/30#xywh=424,1612,2228,214",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "FormCompleted",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "8 February 1883",
+                  "purpose": "describing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
