@@ -54,7 +54,7 @@
                 "width": 682,
                 "height": 971
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/15#100,100,682,971"
+              "target": "https://example.org/iiif/canvas/COPY1/60/15#xywh=100,100,682,971"
             }
           ]
         }
