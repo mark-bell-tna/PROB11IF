@@ -1,7 +1,7 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "https://example.org/iiif/collection/copy1-forms.json",
-  "type": "Collection",
+  "type": "Manifest",
   "label": {
     "en": [
       "Copy1/60"
