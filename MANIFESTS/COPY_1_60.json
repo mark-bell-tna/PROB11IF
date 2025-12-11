@@ -1,162 +1,1625 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://example.org/iiif/manifest/COPY1/60/174.json",
-  "type": "Manifest",
+  "id": "https://example.org/iiif/collection/copy1-forms.json",
+  "type": "Collection",
   "label": {
     "en": [
-      "COPY1/60/174"
+      "Copy1/60"
     ]
   },
   "items": [
     {
-      "id": "https://example.org/iiif/canvas/COPY1/60/174",
-      "type": "Canvas",
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_1.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/1"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/JELYQXNBVBMYKEPOUFQUZJUW/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_2.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/2"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/IHKZVRZJLVJFEIFAGFGCCJOD/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_3.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/3"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/TVRDLSRBPGZTIRVTWTENTVUS/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_4.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/4"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/HFONUFBFKRMQGMMVFVAYRDQP/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_5.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/5"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/KJCGGGJENUGCDYQLKLKUOCOE/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_6.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/6"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/HGUJEDMOLFMXBXPKUMSUJRNT/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_7.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/7"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/KCBPILQSBJMQQFAWCJWIDCYQ/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_8.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/8"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/TAZDGDLVVHERXKGRUDSVUAHF/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_9.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/9"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/BYAMKEEGWLFYHVERZAXMIKTX/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_10.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/10"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/SVXSLCXXBRJUOQYOJZVJUFDC/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_11.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/11"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/HUQGBKXURXFWVMBKEDDBRMFW/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_12.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/12"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/LVFDJIMTXTVSEQYVWYUGYQBH/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_13.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/13"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/FPWOMECKVYWXCLEGWVUCOPPS/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_14.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/14"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/IPCDHUXHZITTKTTLYCHQAZKL/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_15.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/15"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/YOKIFLOWRFVOTDJWLJMWEVGN/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_16.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/16"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/OHGFJJGWZHWBCPFILXWLVGXP/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_17.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/17"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/TXZFLJOUOPUJERUWMPLRIJUW/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_18.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/18"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/TAIZTVORSZMSUWWOATWABWXZ/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_19.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/19"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/PJSNRRWARCDUSPPJLIGLJGWG/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_20.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/20"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/IYNDVSPGRDVEJZJGMFQOGKMW/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_21.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/21"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/IQGCSGBULNJYMQLAFAHHEQKI/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_22.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/22"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/TJTUFEMUJHEZQVHFWOLFTVCW/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_23.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/23"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/XRLBZPKQOBYJMZJXUTZEUJTU/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_24.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/24"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/AYVORYEDSZUYHRDBANYWFJGU/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_25.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/25"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/YKYZRXSJQHFQBWEXPUHHFHKW/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_26.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/26"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/XFNYYUCJETISNNXCAKAITEFA/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_27.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/27"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/OMWRVKOHMZKMSSYIHLOYHFGL/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_28.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/28"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/DMIJLMCLSPSVNNFLGCXFQIOG/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_29.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/29"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/JBCIHLSZNFKJYZGZASVNGUVW/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_30.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/30"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/WSWZIQAHZOQBJSHTNAMLAVEW/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_31.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/31"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/DXRYYBTYSSVTHHZWXJIOYELA/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_50.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/50"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/BMPGOKVFXYTGWQKQIUBCICJC/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_51.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/51"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/JWWPXCHSBXOTNDARFDESNUHN/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_52.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/52"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/IBHOZTYPAXJIKXCOZJBCWDXE/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_53.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/53"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/MZOZETLIHKGGQNPGIMYTKPES/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_97.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/97"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/ERYVFBTTRGSRCWRYAKZQNKZE/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_99.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/99"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/YRXSYZMFRZTUMCMSIDQJTRFJ/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_100.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/100"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/TGSHSALNDOFLILKSYKOVOUTO/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_101.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/101"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/HWWNMDXVRCXYYFADEFFDJJCB/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_102.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/102"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/DOKXWQUJEPNGPDTJTHZVVPOS/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_103.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/103"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/EEFRMOZFMSKPXUJTFVWMZHBA/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_104.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/104"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/VWIOMKVNPWPFLNNKDHFNBZPM/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_105.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/105"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/TCREAFSIFAJKIIGFNVWQFFGE/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_106.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/106"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/YKYGEBBSNPKHUKWSSCXBTOJP/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_107.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/107"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/LTOUKUCYEFHHNWQMLQKGGMPM/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_108.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/108"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/CDYIAYXYYMWQWFVJZWGAGOPM/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_109.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/109"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/QTFZTCUVWENGHWXDIJLNPYWU/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_110.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/110"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/JPPSNOGZAWJVCOLOMPCFBJOQ/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_111.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/111"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/JNXUVIHGBYWSUFAALCAGMCKL/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_112.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/112"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/FAVZYOOYYRUDBBPURTLSFWKX/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_113.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/113"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/HSROFAAEKMCJKMZREVWIRYFV/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_114.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/114"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/OIQWVGPGXOGFQGRGDZECXVND/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_115.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/115"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/RZTRPFTIPBAEIFERWJDAKYUF/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_116.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/116"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/DPCCITVNNNOBWHFRTOUYIDLL/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_117.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/117"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/BLXIKPSUPZIPGPKTWGDFLHJR/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_118.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/118"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/VZUIHIPTHRWYJTTSMSYMQWOX/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_119.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/119"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/BQJITYJQCXMLJRCHJWXXZMRE/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_120.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/120"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/DINJXLCZSQPDZUKMRFDPILZP/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_121.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/121"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/WBYILLWPCMTPWBIRVVJUXTQH/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_122.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/122"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/GSQJCXADDHCLHNRLKPESAOEY/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_123.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/123"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/RLLXCZDISLTBYHBGHOWMGQZG/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_124.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/124"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/LEPVMZJYYPKUFKAUZASOUQMY/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_125.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/125"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/YAQOBSZMHQLTEHFREKTEMOCA/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_126.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/126"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/NPMHBQEJYMHFMIWQIPAWYTYF/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_127.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/127"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/GBRTUWWNERONKROGYQNAQNPP/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_128.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/128"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/VDZYRNLTPBGTYKTCLEHLHPIX/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_129.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/129"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/DZASKJNTBPCFMTWRLTPJVDGH/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_130.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/130"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/BFWPOJDJFTDBWYXAUIWBXYRL/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_131.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/131"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/VTYXHZZNIFNBUAHHKQDBPYWD/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_132.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/132"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/IOXBOPFVZXULVJIKFWCQLXSD/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_133.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/133"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/ZMMEBLVPJAZSFEGJIGGIDOWY/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_134.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/134"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/TRYAFGYVYEVILBMRUTGOTZMZ/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_135.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/135"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/BEAHEHYVFAAHLCDHDCKHQOOR/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_136.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/136"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/PWPWOUZZFZRVNQVABXVKEJGS/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_137.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/137"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/ONOLKSEGTQHBIXNGLFSIOEFF/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_138.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/138"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/OAJQZGHOGPVODLJRMCDZRTMR/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_139.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/139"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/XKIYRAJONTPJJTTSUHLRIJWL/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_140.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/140"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/PKPTQZQCHYMSGGWCCJXVSFSL/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_141.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/141"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/ABYWFZXSHEBNUGQAKGEQVMCT/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_142.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/142"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/JCCWCOTDIUUSXLLHHTOEJTMI/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_143.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/143"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/FSZTIQBYKINRNJBXZBELRCCT/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_144.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/144"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/NXRXNRJZZUNIOEKNTFLNWLRG/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_145.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/145"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/VGNDKQTEDWEDOAVAQFIZWPIP/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_146.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/146"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/ISCGLTFGGODEIEIJSMISTEFD/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_147.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/147"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/HKECREZRUDKGEKZVYFHRCGNS/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_148.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/148"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/WTQYYHDUFXJQQPXKBBKCNNKV/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_149.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/149"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/MFKJRMRIMTLYZPADDFHNJLJJ/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_150.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/150"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/AGSYTPEGXEYYPYXOPDPWESPX/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_151.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/151"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/SAKLKHOQQWUHNBEELUONXONF/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_152.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/152"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/UOCXRMUWIUOUTPTEZZERZPWT/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_153.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/153"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/GEXAAHDQVYFIDAAWJQTKYDFJ/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_154.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/154"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/LLEDYJIAGSFPNYNTNWIQRHBP/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_155.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/155"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/GFNVARUJYWMQNVYQXWUETXYY/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_156.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/156"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/DLZECJGJOUUXANEUNHOOXYHE/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/PROB11IF/refs/heads/main/MANIFESTS/COPY1_60_174.json",
+      "type": "Manifest",
       "label": {
         "en": [
           "COPY1/60/174"
         ]
       },
-      "width": 3508,
-      "height": 2479,
-      "items": [
+      "thumbnail": [
         {
-          "id": "https://example.org/iiif/annotationpage/COPY1/60/174",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://example.org/iiif/annotation/COPY1/60/174",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://files.transkribus.eu/iiif/2/VKBGRXAUPRHUPSBGOPKVTJLJ/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "width": 3508,
-                "height": 2479,
-                "service": [
-                  {
-                    "id": "https://files.transkribus.eu/iiif/2/VKBGRXAUPRHUPSBGOPKVTJLJ",
-                    "type": "ImageService3",
-                    "profile": "level1"
-                  }
-                ]
-              },
-              "target": "https://example.org/iiif/canvas/COPY1/60/174"
-            },
-            {
-              "id": "https://example.org/iiif/annotation/COPY1/60/174/photo",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://files.transkribus.eu/iiif/2/TMQCYANNIXNIXCLGQURSERQF/751,297,1471,1947/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "width": 1471,
-                "height": 1947
-              },
-              "target": "https://example.org/iiif/canvas/COPY1/60/174#xywh=100,100,1471,1947"
-            }
-          ]
-        }
-      ],
-      "annotations": [
-        {
-          "id": "https://example.org/iiif/COPY1/60/174/regions",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://example.org/iiif/annotation/COPY1/60/174/region-2",
-              "type": "Annotation",
-              "motivation": "commenting",
-              "label": {
-                "en": [
-                  "'Photograph from a water colour drawing of a mounted Horse Guard Blue''. "
-                ]
-              },
-              "target": "https://example.org/iiif/canvas/COPY1/60/174#xywh=378,784,780,794",
-              "body": [
-                {
-                  "type": "Text",
-                  "value": "DescriptionText",
-                  "purpose": "tagging"
-                },
-                {
-                  "type": "Text",
-                  "value": "'Photograph from a water colour drawing of a mounted Horse Guard Blue''. ",
-                  "purpose": "describing"
-                }
-              ]
-            },
-            {
-              "id": "https://example.org/iiif/annotation/COPY1/60/174/region-5",
-              "type": "Annotation",
-              "motivation": "commenting",
-              "label": {
-                "en": [
-                  "6 March 1883"
-                ]
-              },
-              "target": "https://example.org/iiif/canvas/COPY1/60/174#xywh=371,1574,2213,246",
-              "body": [
-                {
-                  "type": "Text",
-                  "value": "FormCompleted",
-                  "purpose": "tagging"
-                },
-                {
-                  "type": "Text",
-                  "value": "6 March 1883",
-                  "purpose": "describing"
-                }
-              ]
-            },
-            {
-              "id": "https://example.org/iiif/annotation/COPY1/60/174/region-6",
-              "type": "Annotation",
-              "motivation": "commenting",
-              "label": {
-                "en": [
-                  "Marion and Company, 22-23 Soho Square, London."
-                ]
-              },
-              "target": "https://example.org/iiif/canvas/COPY1/60/174#xywh=1738,749,415,836",
-              "body": [
-                {
-                  "type": "Text",
-                  "value": "CopyrightOwner",
-                  "purpose": "tagging"
-                },
-                {
-                  "type": "Text",
-                  "value": "Marion and Company, 22-23 Soho Square, London.",
-                  "purpose": "describing"
-                }
-              ]
-            },
-            {
-              "id": "https://example.org/iiif/annotation/COPY1/60/174/region-7",
-              "type": "Annotation",
-              "motivation": "commenting",
-              "label": {
-                "en": [
-                  "Marion and Company, 22-23 Soho Square, London."
-                ]
-              },
-              "target": "https://example.org/iiif/canvas/COPY1/60/174#xywh=2125,739,473,846",
-              "body": [
-                {
-                  "type": "Text",
-                  "value": "CopyrightAuthor",
-                  "purpose": "tagging"
-                },
-                {
-                  "type": "Text",
-                  "value": "Marion and Company, 22-23 Soho Square, London.",
-                  "purpose": "describing"
-                }
-              ]
-            }
-          ]
+          "id": "https://files.transkribus.eu/iiif/2/VKBGRXAUPRHUPSBGOPKVTJLJ/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
         }
       ]
     }
