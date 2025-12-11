@@ -20,155 +20,163 @@
       "height": 2479,
       "items": [
         {
-          "id": "https://example.org/iiif/annotation/COPY1/60/2/form",
-          "type": "Annotation",
-          "motivation": "painting",
-          "target": "https://example.org/iiif/canvas/COPY1/60/2",
-          "body": {
-            "id": "https://files.transkribus.eu/iiif/2/IHKZVRZJLVJFEIFAGFGCCJOD/full/full/0/default.jpg",
-            "type": "Image",
-            "format": "image/jpeg",
-            "width": 3508,
-            "height": 2479,
-            "label": {
-              "en": [
-                "Form with photograph folded away"
-              ]
-            },
-            "service": [
-              {
-                "id": "https://files.transkribus.eu/iiif/2/IHKZVRZJLVJFEIFAGFGCCJOD",
-                "type": "ImageService3",
-                "profile": "level1"
-              }
-            ]
-          }
-        },
-        {
-          "id": "https://example.org/iiif/annotation/COPY1/60/2/form",
-          "type": "Annotation",
-          "motivation": "painting",
-          "target": "https://example.org/iiif/canvas/COPY1/60/2#100,100,415,566",
-          "body": {
-            "id": "https://files.transkribus.eu/iiif/2/IHKZVRZJLVJFEIFAGFGCCJOD/1110,915,566,415/full/0/default.jpg",
-            "type": "Image",
-            "format": "image/jpeg",
-            "width": 415,
-            "height": 566,
-            "label": {
-              "en": [
-                "photograph"
-              ]
-            },
-            "service": [
-              {
-                "id": "https://files.transkribus.eu/iiif/2/IHKZVRZJLVJFEIFAGFGCCJOD",
-                "type": "ImageService3",
-                "profile": "level1"
-              }
-            ]
-          }
-        }
-      ],
-      "annotations": [
-        {
-          "id": "https://example.org/iiif/COPY1/60/2/regions",
+          "id": "https://example.org/iiif/annotationpage/COPY1/60/2",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/iiif/annotation/COPY1/60/2/region-2",
+              "id": "https://example.org/iiif/annotation/COPY1/60/2/form",
               "type": "Annotation",
-              "motivation": "commenting",
-              "label": {
-                "en": [
-                  "'Photograph from a drawing in colours of late Prince Imperial of France, ¾ face, looking to his right, standing, fur mantle on left shoulder'. "
-                ]
-              },
-              "target": "https://example.org/iiif/canvas/COPY1/60/2#xywh=319,828,777,742",
-              "body": [
-                {
-                  "type": "Text",
-                  "value": "DescriptionText",
-                  "purpose": "tagging"
+              "motivation": "painting",
+              "target": "https://example.org/iiif/canvas/COPY1/60/2",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/IHKZVRZJLVJFEIFAGFGCCJOD/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3508,
+                "height": 2479,
+                "label": {
+                  "en": [
+                    "Form with photograph folded away"
+                  ]
                 },
-                {
-                  "type": "Text",
-                  "value": "'Photograph from a drawing in colours of late Prince Imperial of France, ¾ face, looking to his right, standing, fur mantle on left shoulder'. ",
-                  "purpose": "describing"
-                }
-              ]
+                "service": [
+                  {
+                    "id": "https://files.transkribus.eu/iiif/2/IHKZVRZJLVJFEIFAGFGCCJOD",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              }
             },
             {
-              "id": "https://example.org/iiif/annotation/COPY1/60/2/region-5",
+              "id": "https://example.org/iiif/annotation/COPY1/60/2/form",
               "type": "Annotation",
-              "motivation": "commenting",
-              "label": {
-                "en": [
-                  "Fred Bauer, 21 Scarborough Street, Goodman's Fields, London."
-                ]
-              },
-              "target": "https://example.org/iiif/canvas/COPY1/60/2#xywh=1687,818,365,754",
-              "body": [
-                {
-                  "type": "Text",
-                  "value": "CopyrightOwner",
-                  "purpose": "tagging"
+              "motivation": "painting",
+              "target": "https://example.org/iiif/canvas/COPY1/60/2#100,100,415,566",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/IHKZVRZJLVJFEIFAGFGCCJOD/1110,915,566,415/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 415,
+                "height": 566,
+                "label": {
+                  "en": [
+                    "photograph"
+                  ]
                 },
-                {
-                  "type": "Text",
-                  "value": "Fred Bauer, 21 Scarborough Street, Goodman's Fields, London.",
-                  "purpose": "describing"
-                }
-              ]
-            },
-            {
-              "id": "https://example.org/iiif/annotation/COPY1/60/2/region-6",
-              "type": "Annotation",
-              "motivation": "commenting",
-              "label": {
-                "en": [
-                  "Fred Bauer, 21 Scarborough Street, Goodman's Fields, London."
+                "service": [
+                  {
+                    "id": "https://files.transkribus.eu/iiif/2/IHKZVRZJLVJFEIFAGFGCCJOD",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
                 ]
-              },
-              "target": "https://example.org/iiif/canvas/COPY1/60/2#xywh=2042,820,440,772",
-              "body": [
-                {
-                  "type": "Text",
-                  "value": "CopyrightAuthor",
-                  "purpose": "tagging"
-                },
-                {
-                  "type": "Text",
-                  "value": "Fred Bauer, 21 Scarborough Street, Goodman's Fields, London.",
-                  "purpose": "describing"
-                }
-              ]
-            },
-            {
-              "id": "https://example.org/iiif/annotation/COPY1/60/2/region-7",
-              "type": "Annotation",
-              "motivation": "commenting",
-              "label": {
-                "en": [
-                  "4 February 1883[?]"
-                ]
-              },
-              "target": "https://example.org/iiif/canvas/COPY1/60/2#xywh=340,1550,2162,215",
-              "body": [
-                {
-                  "type": "Text",
-                  "value": "FormCompleted",
-                  "purpose": "tagging"
-                },
-                {
-                  "type": "Text",
-                  "value": "4 February 1883[?]",
-                  "purpose": "describing"
-                }
-              ]
+              }
             }
           ]
         }
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "id": "https://example.org/iiif/COPY1/60/2/regions",
+      "type": "AnnotationPage",
+      "items": [
+        [
+          {
+            "id": "https://example.org/iiif/annotation/COPY1/60/2/region-2",
+            "type": "Annotation",
+            "motivation": "commenting",
+            "label": {
+              "en": [
+                "'Photograph from a drawing in colours of late Prince Imperial of France, ¾ face, looking to his right, standing, fur mantle on left shoulder'. "
+              ]
+            },
+            "target": "https://example.org/iiif/canvas/COPY1/60/2#xywh=319,828,777,742",
+            "body": [
+              {
+                "type": "Text",
+                "value": "DescriptionText",
+                "purpose": "tagging"
+              },
+              {
+                "type": "Text",
+                "value": "'Photograph from a drawing in colours of late Prince Imperial of France, ¾ face, looking to his right, standing, fur mantle on left shoulder'. ",
+                "purpose": "describing"
+              }
+            ]
+          },
+          {
+            "id": "https://example.org/iiif/annotation/COPY1/60/2/region-5",
+            "type": "Annotation",
+            "motivation": "commenting",
+            "label": {
+              "en": [
+                "Fred Bauer, 21 Scarborough Street, Goodman's Fields, London."
+              ]
+            },
+            "target": "https://example.org/iiif/canvas/COPY1/60/2#xywh=1687,818,365,754",
+            "body": [
+              {
+                "type": "Text",
+                "value": "CopyrightOwner",
+                "purpose": "tagging"
+              },
+              {
+                "type": "Text",
+                "value": "Fred Bauer, 21 Scarborough Street, Goodman's Fields, London.",
+                "purpose": "describing"
+              }
+            ]
+          },
+          {
+            "id": "https://example.org/iiif/annotation/COPY1/60/2/region-6",
+            "type": "Annotation",
+            "motivation": "commenting",
+            "label": {
+              "en": [
+                "Fred Bauer, 21 Scarborough Street, Goodman's Fields, London."
+              ]
+            },
+            "target": "https://example.org/iiif/canvas/COPY1/60/2#xywh=2042,820,440,772",
+            "body": [
+              {
+                "type": "Text",
+                "value": "CopyrightAuthor",
+                "purpose": "tagging"
+              },
+              {
+                "type": "Text",
+                "value": "Fred Bauer, 21 Scarborough Street, Goodman's Fields, London.",
+                "purpose": "describing"
+              }
+            ]
+          },
+          {
+            "id": "https://example.org/iiif/annotation/COPY1/60/2/region-7",
+            "type": "Annotation",
+            "motivation": "commenting",
+            "label": {
+              "en": [
+                "4 February 1883[?]"
+              ]
+            },
+            "target": "https://example.org/iiif/canvas/COPY1/60/2#xywh=340,1550,2162,215",
+            "body": [
+              {
+                "type": "Text",
+                "value": "FormCompleted",
+                "purpose": "tagging"
+              },
+              {
+                "type": "Text",
+                "value": "4 February 1883[?]",
+                "purpose": "describing"
+              }
+            ]
+          }
+        ]
       ]
     }
   ]
