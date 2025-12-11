@@ -20,67 +20,57 @@
       "height": 2479,
       "items": [
         {
-          "id": "https://example.org/iiif/annotationpage/COPY1/60/26",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://example.org/iiif/annotation/COPY1/60/26/form",
-              "type": "Annotation",
-              "motivation": "painting",
-              "target": "https://example.org/iiif/canvas/COPY1/60/26",
-              "body": {
-                "type": "Choice",
-                "items": [
-                  {
-                    "id": "https://files.transkribus.eu/iiif/2/XFNYYUCJETISNNXCAKAITEFA/full/full/0/default.jpg",
-                    "type": "Image",
-                    "width": 3508,
-                    "height": 2479,
-                    "format": "image/jpeg",
-                    "label": {
-                      "en": [
-                        "Form with photograph folded away"
-                      ]
-                    }
-                  },
-                  {
-                    "id": "https://files.transkribus.eu/iiif/2/Y/727,714,1054,752/full/0/default.jpg",
-                    "type": "Image",
-                    "width": 752,
-                    "height": 1054,
-                    "format": "image/jpeg",
-                    "label": {
-                      "en": [
-                        "Attached photograph"
-                      ]
-                    }
-                  }
-                ]
+          "id": "https://example.org/iiif/annotation/COPY1/60/26/form",
+          "type": "Annotation",
+          "motivation": "painting",
+          "target": "https://example.org/iiif/canvas/COPY1/60/26",
+          "body": {
+            "id": "https://files.transkribus.eu/iiif/2/XFNYYUCJETISNNXCAKAITEFA/full/full/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "width": 3508,
+            "height": 2479,
+            "label": {
+              "en": [
+                "Form with photograph folded away"
+              ]
+            },
+            "service": [
+              {
+                "id": "https://files.transkribus.eu/iiif/2/XFNYYUCJETISNNXCAKAITEFA",
+                "type": "ImageService3",
+                "profile": "level1"
               }
-            }
-          ]
+            ]
+          }
+        },
+        {
+          "id": "https://example.org/iiif/annotation/COPY1/60/26/form",
+          "type": "Annotation",
+          "motivation": "painting",
+          "target": "https://example.org/iiif/canvas/COPY1/60/26#100,100,752,1054",
+          "body": {
+            "id": "https://files.transkribus.eu/iiif/2/RCSWRBKCXELDDWFYQCQSTFSP/727,714,1054,752/full/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "width": 752,
+            "height": 1054,
+            "label": {
+              "en": [
+                "photograph"
+              ]
+            },
+            "service": [
+              {
+                "id": "https://files.transkribus.eu/iiif/2/RCSWRBKCXELDDWFYQCQSTFSP",
+                "type": "ImageService3",
+                "profile": "level1"
+              }
+            ]
+          }
         }
       ],
       "annotations": [
-        {
-          "id": "https://example.org/iiif/annotation/COPY1/60/26/supplementing",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://example.org/iiif/annotation/COPY1/60/26/supplement-1",
-              "type": "Annotation",
-              "motivation": "supplementing",
-              "body": {
-                "id": "https://files.transkribus.eu/iiif/2/Y/727,714,1054,752/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "width": 752,
-                "height": 1054
-              },
-              "target": "https://example.org/iiif/canvas/COPY1/60/26#xywh=727,714,752,1054"
-            }
-          ]
-        },
         {
           "id": "https://example.org/iiif/COPY1/60/26/regions",
           "type": "AnnotationPage",
@@ -91,7 +81,7 @@
               "motivation": "commenting",
               "label": {
                 "en": [
-                  "DescriptionText"
+                  "'Photograph from a drawing entitled 'The Water Jump'. Man in brook and horse standing by'. "
                 ]
               },
               "target": "https://example.org/iiif/canvas/COPY1/60/26#xywh=350,839,720,794",
@@ -114,7 +104,7 @@
               "motivation": "commenting",
               "label": {
                 "en": [
-                  "CopyrightOwner"
+                  "Marion and Company, 22-23 Soho Square, London."
                 ]
               },
               "target": "https://example.org/iiif/canvas/COPY1/60/26#xywh=1641,833,379,801",
@@ -137,7 +127,7 @@
               "motivation": "commenting",
               "label": {
                 "en": [
-                  "CopyrightAuthor"
+                  "Marion and Company, 22-23 Soho Square, London."
                 ]
               },
               "target": "https://example.org/iiif/canvas/COPY1/60/26#xywh=1998,839,431,792",
@@ -160,7 +150,7 @@
               "motivation": "commenting",
               "label": {
                 "en": [
-                  "FormCompleted"
+                  "9 February 1883"
                 ]
               },
               "target": "https://example.org/iiif/canvas/COPY1/60/26#xywh=291,1609,2148,213",

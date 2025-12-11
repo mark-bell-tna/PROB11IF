@@ -20,33 +20,29 @@
       "height": 2479,
       "items": [
         {
-          "id": "https://example.org/iiif/annotationpage/COPY1/60/22",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://example.org/iiif/annotation/COPY1/60/22/form",
-              "type": "Annotation",
-              "motivation": "painting",
-              "target": "https://example.org/iiif/canvas/COPY1/60/22",
-              "body": {
-                "type": "Choice",
-                "items": [
-                  {
-                    "id": "https://files.transkribus.eu/iiif/2/TJTUFEMUJHEZQVHFWOLFTVCW/full/full/0/default.jpg",
-                    "type": "Image",
-                    "width": 3508,
-                    "height": 2479,
-                    "format": "image/jpeg",
-                    "label": {
-                      "en": [
-                        "Form with photograph folded away"
-                      ]
-                    }
-                  }
-                ]
+          "id": "https://example.org/iiif/annotation/COPY1/60/22/form",
+          "type": "Annotation",
+          "motivation": "painting",
+          "target": "https://example.org/iiif/canvas/COPY1/60/22",
+          "body": {
+            "id": "https://files.transkribus.eu/iiif/2/TJTUFEMUJHEZQVHFWOLFTVCW/full/full/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "width": 3508,
+            "height": 2479,
+            "label": {
+              "en": [
+                "Form with photograph folded away"
+              ]
+            },
+            "service": [
+              {
+                "id": "https://files.transkribus.eu/iiif/2/TJTUFEMUJHEZQVHFWOLFTVCW",
+                "type": "ImageService3",
+                "profile": "level1"
               }
-            }
-          ]
+            ]
+          }
         }
       ],
       "annotations": [
@@ -60,7 +56,7 @@
               "motivation": "commenting",
               "label": {
                 "en": [
-                  "DescriptionText"
+                  "'Photograph of the 'York New Institute' from a drawing by Mr Walter Green Penty'. \nNo copy of photograph annexed. "
                 ]
               },
               "target": "https://example.org/iiif/canvas/COPY1/60/22#xywh=309,814,845,802",
@@ -83,7 +79,7 @@
               "motivation": "commenting",
               "label": {
                 "en": [
-                  "CopyrightOwner"
+                  "William Eskett, Lendal, Yorkshire."
                 ]
               },
               "target": "https://example.org/iiif/canvas/COPY1/60/22#xywh=1659,811,390,781",
@@ -106,7 +102,7 @@
               "motivation": "commenting",
               "label": {
                 "en": [
-                  "CopyrightAuthor"
+                  "William Eskett, Lendal, Yorkshire."
                 ]
               },
               "target": "https://example.org/iiif/canvas/COPY1/60/22#xywh=2025,821,439,778",
@@ -129,7 +125,7 @@
               "motivation": "commenting",
               "label": {
                 "en": [
-                  "FormCompleted"
+                  "8 February 1883"
                 ]
               },
               "target": "https://example.org/iiif/canvas/COPY1/60/22#xywh=345,1588,2087,189",

@@ -27,18 +27,12 @@
               "id": "https://example.org/iiif/annotation/COPY1/60/18",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://example.org/iiif/canvas/COPY1/60/18",
               "body": {
                 "id": "https://files.transkribus.eu/iiif/2/TAIZTVORSZMSUWWOATWABWXZ/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3508,
                 "height": 2479,
-                "label": {
-                  "en": [
-                    "Form with photograph folded away"
-                  ]
-                },
                 "service": [
                   {
                     "id": "https://files.transkribus.eu/iiif/2/TAIZTVORSZMSUWWOATWABWXZ",
@@ -46,128 +40,22 @@
                     "profile": "level1"
                   }
                 ]
-              }
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/18"
             },
             {
               "id": "https://example.org/iiif/annotation/COPY1/60/18/photo",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://example.org/iiif/canvas/COPY1/60/18#100,100,715,1006",
               "body": {
                 "id": "https://files.transkribus.eu/iiif/2/DHVUMWJCFNOYCEZVKFDYOKSA/340,469,1006,715/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 715,
-                "height": 1006,
-                "label": {
-                  "en": [
-                    "photograph"
-                  ]
-                }
-              }
+                "height": 1006
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/18#100,100,715,1006"
             }
-          ]
-        }
-      ],
-      "annotations": [
-        {
-          "id": "https://example.org/iiif/COPY1/60/18/regions",
-          "type": "AnnotationPage",
-          "items": [
-            [
-              {
-                "id": "https://example.org/iiif/annotation/COPY1/60/18/region-2",
-                "type": "Annotation",
-                "motivation": "commenting",
-                "label": {
-                  "en": [
-                    "'Photograph of Dr Benson, Archbishop designate of Canterbury seated'. "
-                  ]
-                },
-                "target": "https://example.org/iiif/canvas/COPY1/60/18#xywh=397,821,784,761",
-                "body": [
-                  {
-                    "type": "Text",
-                    "value": "DescriptionText",
-                    "purpose": "tagging"
-                  },
-                  {
-                    "type": "Text",
-                    "value": "'Photograph of Dr Benson, Archbishop designate of Canterbury seated'. ",
-                    "purpose": "describing"
-                  }
-                ]
-              },
-              {
-                "id": "https://example.org/iiif/annotation/COPY1/60/18/region-5",
-                "type": "Annotation",
-                "motivation": "commenting",
-                "label": {
-                  "en": [
-                    "Edgar Gael, 9 Berkeley Vale, Falmouth."
-                  ]
-                },
-                "target": "https://example.org/iiif/canvas/COPY1/60/18#xywh=1722,839,381,765",
-                "body": [
-                  {
-                    "type": "Text",
-                    "value": "CopyrightOwner",
-                    "purpose": "tagging"
-                  },
-                  {
-                    "type": "Text",
-                    "value": "Edgar Gael, 9 Berkeley Vale, Falmouth.",
-                    "purpose": "describing"
-                  }
-                ]
-              },
-              {
-                "id": "https://example.org/iiif/annotation/COPY1/60/18/region-6",
-                "type": "Annotation",
-                "motivation": "commenting",
-                "label": {
-                  "en": [
-                    "Edgar Gael, 9 Berkeley Vale, Falmouth."
-                  ]
-                },
-                "target": "https://example.org/iiif/canvas/COPY1/60/18#xywh=2095,854,433,770",
-                "body": [
-                  {
-                    "type": "Text",
-                    "value": "CopyrightAuthor",
-                    "purpose": "tagging"
-                  },
-                  {
-                    "type": "Text",
-                    "value": "Edgar Gael, 9 Berkeley Vale, Falmouth.",
-                    "purpose": "describing"
-                  }
-                ]
-              },
-              {
-                "id": "https://example.org/iiif/annotation/COPY1/60/18/region-7",
-                "type": "Annotation",
-                "motivation": "commenting",
-                "label": {
-                  "en": [
-                    "26 January 1883"
-                  ]
-                },
-                "target": "https://example.org/iiif/canvas/COPY1/60/18#xywh=411,1590,2091,194",
-                "body": [
-                  {
-                    "type": "Text",
-                    "value": "FormCompleted",
-                    "purpose": "tagging"
-                  },
-                  {
-                    "type": "Text",
-                    "value": "26 January 1883",
-                    "purpose": "describing"
-                  }
-                ]
-              }
-            ]
           ]
         }
       ]

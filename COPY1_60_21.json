@@ -24,158 +24,37 @@
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/iiif/annotation/COPY1/60/21/form",
+              "id": "https://example.org/iiif/annotation/COPY1/60/21",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://example.org/iiif/canvas/COPY1/60/21",
               "body": {
-                "type": "Choice",
-                "items": [
+                "id": "https://files.transkribus.eu/iiif/2/IQGCSGBULNJYMQLAFAHHEQKI/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3508,
+                "height": 2479,
+                "service": [
                   {
-                    "id": "https://files.transkribus.eu/iiif/2/IQGCSGBULNJYMQLAFAHHEQKI/full/full/0/default.jpg",
-                    "type": "Image",
-                    "width": 3508,
-                    "height": 2479,
-                    "format": "image/jpeg",
-                    "label": {
-                      "en": [
-                        "Form with photograph folded away"
-                      ]
-                    }
-                  },
-                  {
-                    "id": "https://files.transkribus.eu/iiif/2/Y/1363,1006,602,367/full/0/default.jpg",
-                    "type": "Image",
-                    "width": 367,
-                    "height": 602,
-                    "format": "image/jpeg",
-                    "label": {
-                      "en": [
-                        "Attached photograph"
-                      ]
-                    }
+                    "id": "https://files.transkribus.eu/iiif/2/IQGCSGBULNJYMQLAFAHHEQKI",
+                    "type": "ImageService3",
+                    "profile": "level1"
                   }
                 ]
-              }
-            }
-          ]
-        }
-      ],
-      "annotations": [
-        {
-          "id": "https://example.org/iiif/annotation/COPY1/60/21/supplementing",
-          "type": "AnnotationPage",
-          "items": [
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/21"
+            },
             {
-              "id": "https://example.org/iiif/annotation/COPY1/60/21/supplement-1",
+              "id": "https://example.org/iiif/annotation/COPY1/60/21/photo",
               "type": "Annotation",
-              "motivation": "supplementing",
+              "motivation": "painting",
               "body": {
-                "id": "https://files.transkribus.eu/iiif/2/Y/1363,1006,602,367/full/0/default.jpg",
+                "id": "https://files.transkribus.eu/iiif/2/IQGCSGBULNJYMQLAFAHHEQKI/1363,1006,602,367/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 367,
                 "height": 602
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/21#xywh=1363,1006,367,602"
-            }
-          ]
-        },
-        {
-          "id": "https://example.org/iiif/COPY1/60/21/regions",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://example.org/iiif/annotation/COPY1/60/21/region-2",
-              "type": "Annotation",
-              "motivation": "commenting",
-              "label": {
-                "en": [
-                  "DescriptionText"
-                ]
-              },
-              "target": "https://example.org/iiif/canvas/COPY1/60/21#xywh=411,794,827,785",
-              "body": [
-                {
-                  "type": "Text",
-                  "value": "DescriptionText",
-                  "purpose": "tagging"
-                },
-                {
-                  "type": "Text",
-                  "value": "'Photograph of bottle of perfume, Skegness Seaside Bouquet'. ",
-                  "purpose": "describing"
-                }
-              ]
-            },
-            {
-              "id": "https://example.org/iiif/annotation/COPY1/60/21/region-5",
-              "type": "Annotation",
-              "motivation": "commenting",
-              "label": {
-                "en": [
-                  "CopyrightOwner"
-                ]
-              },
-              "target": "https://example.org/iiif/canvas/COPY1/60/21#xywh=1763,798,432,787",
-              "body": [
-                {
-                  "type": "Text",
-                  "value": "CopyrightOwner",
-                  "purpose": "tagging"
-                },
-                {
-                  "type": "Text",
-                  "value": "George Robert Newton, 30 Lumley Road, Skegness, Lincolnshire.",
-                  "purpose": "describing"
-                }
-              ]
-            },
-            {
-              "id": "https://example.org/iiif/annotation/COPY1/60/21/region-6",
-              "type": "Annotation",
-              "motivation": "commenting",
-              "label": {
-                "en": [
-                  "CopyrightAuthor"
-                ]
-              },
-              "target": "https://example.org/iiif/canvas/COPY1/60/21#xywh=2111,812,442,781",
-              "body": [
-                {
-                  "type": "Text",
-                  "value": "CopyrightAuthor",
-                  "purpose": "tagging"
-                },
-                {
-                  "type": "Text",
-                  "value": "William Smyth, Skegness.",
-                  "purpose": "describing"
-                }
-              ]
-            },
-            {
-              "id": "https://example.org/iiif/annotation/COPY1/60/21/region-7",
-              "type": "Annotation",
-              "motivation": "commenting",
-              "label": {
-                "en": [
-                  "FormCompleted"
-                ]
-              },
-              "target": "https://example.org/iiif/canvas/COPY1/60/21#xywh=370,1566,2089,196",
-              "body": [
-                {
-                  "type": "Text",
-                  "value": "FormCompleted",
-                  "purpose": "tagging"
-                },
-                {
-                  "type": "Text",
-                  "value": "7 February 1883",
-                  "purpose": "describing"
-                }
-              ]
+              "target": "https://example.org/iiif/canvas/COPY1/60/21#100,100,367,602"
             }
           ]
         }

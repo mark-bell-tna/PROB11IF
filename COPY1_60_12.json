@@ -27,18 +27,12 @@
               "id": "https://example.org/iiif/annotation/COPY1/60/12",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://example.org/iiif/canvas/COPY1/60/12",
               "body": {
                 "id": "https://files.transkribus.eu/iiif/2/LVFDJIMTXTVSEQYVWYUGYQBH/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3508,
                 "height": 2479,
-                "label": {
-                  "en": [
-                    "Form with photograph folded away"
-                  ]
-                },
                 "service": [
                   {
                     "id": "https://files.transkribus.eu/iiif/2/LVFDJIMTXTVSEQYVWYUGYQBH",
@@ -46,128 +40,22 @@
                     "profile": "level1"
                   }
                 ]
-              }
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/12"
             },
             {
               "id": "https://example.org/iiif/annotation/COPY1/60/12/photo",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://example.org/iiif/canvas/COPY1/60/12#100,100,412,606",
               "body": {
                 "id": "https://files.transkribus.eu/iiif/2/LVFDJIMTXTVSEQYVWYUGYQBH/1236,991,606,412/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 412,
-                "height": 606,
-                "label": {
-                  "en": [
-                    "photograph"
-                  ]
-                }
-              }
+                "height": 606
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/12#100,100,412,606"
             }
-          ]
-        }
-      ],
-      "annotations": [
-        {
-          "id": "https://example.org/iiif/COPY1/60/12/regions",
-          "type": "AnnotationPage",
-          "items": [
-            [
-              {
-                "id": "https://example.org/iiif/annotation/COPY1/60/12/region-2",
-                "type": "Annotation",
-                "motivation": "commenting",
-                "label": {
-                  "en": [
-                    "'Photograph of William O'Brian Esq., MP front face with spectacles'. "
-                  ]
-                },
-                "target": "https://example.org/iiif/canvas/COPY1/60/12#xywh=356,823,805,768",
-                "body": [
-                  {
-                    "type": "Text",
-                    "value": "DescriptionText",
-                    "purpose": "tagging"
-                  },
-                  {
-                    "type": "Text",
-                    "value": "'Photograph of William O'Brian Esq., MP front face with spectacles'. ",
-                    "purpose": "describing"
-                  }
-                ]
-              },
-              {
-                "id": "https://example.org/iiif/annotation/COPY1/60/12/region-3",
-                "type": "Annotation",
-                "motivation": "commenting",
-                "label": {
-                  "en": [
-                    "William Lawrence, 5-7 Upper Sackville Street, Dublin, Ireland."
-                  ]
-                },
-                "target": "https://example.org/iiif/canvas/COPY1/60/12#xywh=1702,844,394,761",
-                "body": [
-                  {
-                    "type": "Text",
-                    "value": "CopyrightOwner",
-                    "purpose": "tagging"
-                  },
-                  {
-                    "type": "Text",
-                    "value": "William Lawrence, 5-7 Upper Sackville Street, Dublin, Ireland.",
-                    "purpose": "describing"
-                  }
-                ]
-              },
-              {
-                "id": "https://example.org/iiif/annotation/COPY1/60/12/region-4",
-                "type": "Annotation",
-                "motivation": "commenting",
-                "label": {
-                  "en": [
-                    "William Lawrence, 5-7 Upper Sackville Street, Dublin, Ireland."
-                  ]
-                },
-                "target": "https://example.org/iiif/canvas/COPY1/60/12#xywh=2071,844,440,763",
-                "body": [
-                  {
-                    "type": "Text",
-                    "value": "CopyrightAuthor",
-                    "purpose": "tagging"
-                  },
-                  {
-                    "type": "Text",
-                    "value": "William Lawrence, 5-7 Upper Sackville Street, Dublin, Ireland.",
-                    "purpose": "describing"
-                  }
-                ]
-              },
-              {
-                "id": "https://example.org/iiif/annotation/COPY1/60/12/region-6",
-                "type": "Annotation",
-                "motivation": "commenting",
-                "label": {
-                  "en": [
-                    "6 February 1883"
-                  ]
-                },
-                "target": "https://example.org/iiif/canvas/COPY1/60/12#xywh=364,1596,2133,190",
-                "body": [
-                  {
-                    "type": "Text",
-                    "value": "FormCompleted",
-                    "purpose": "tagging"
-                  },
-                  {
-                    "type": "Text",
-                    "value": "6 February 1883",
-                    "purpose": "describing"
-                  }
-                ]
-              }
-            ]
           ]
         }
       ]

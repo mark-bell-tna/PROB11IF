@@ -27,18 +27,12 @@
               "id": "https://example.org/iiif/annotation/COPY1/60/20",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://example.org/iiif/canvas/COPY1/60/20",
               "body": {
                 "id": "https://files.transkribus.eu/iiif/2/IYNDVSPGRDVEJZJGMFQOGKMW/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3508,
                 "height": 2479,
-                "label": {
-                  "en": [
-                    "Form with photograph folded away"
-                  ]
-                },
                 "service": [
                   {
                     "id": "https://files.transkribus.eu/iiif/2/IYNDVSPGRDVEJZJGMFQOGKMW",
@@ -46,128 +40,22 @@
                     "profile": "level1"
                   }
                 ]
-              }
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/20"
             },
             {
               "id": "https://example.org/iiif/annotation/COPY1/60/20/photo",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://example.org/iiif/canvas/COPY1/60/20#100,100,399,626",
               "body": {
                 "id": "https://files.transkribus.eu/iiif/2/IYNDVSPGRDVEJZJGMFQOGKMW/1222,961,626,399/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 399,
-                "height": 626,
-                "label": {
-                  "en": [
-                    "photograph"
-                  ]
-                }
-              }
+                "height": 626
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/20#100,100,399,626"
             }
-          ]
-        }
-      ],
-      "annotations": [
-        {
-          "id": "https://example.org/iiif/COPY1/60/20/regions",
-          "type": "AnnotationPage",
-          "items": [
-            [
-              {
-                "id": "https://example.org/iiif/annotation/COPY1/60/20/region-2",
-                "type": "Annotation",
-                "motivation": "commenting",
-                "label": {
-                  "en": [
-                    "'Photograph of bottle of perfume, Skegness Pier Bouquet'. "
-                  ]
-                },
-                "target": "https://example.org/iiif/canvas/COPY1/60/20#xywh=337,819,813,791",
-                "body": [
-                  {
-                    "type": "Text",
-                    "value": "DescriptionText",
-                    "purpose": "tagging"
-                  },
-                  {
-                    "type": "Text",
-                    "value": "'Photograph of bottle of perfume, Skegness Pier Bouquet'. ",
-                    "purpose": "describing"
-                  }
-                ]
-              },
-              {
-                "id": "https://example.org/iiif/annotation/COPY1/60/20/region-3",
-                "type": "Annotation",
-                "motivation": "commenting",
-                "label": {
-                  "en": [
-                    "George Robert Newton, 30 Lumley Road, Skegness, Lincolnshire."
-                  ]
-                },
-                "target": "https://example.org/iiif/canvas/COPY1/60/20#xywh=1700,826,426,794",
-                "body": [
-                  {
-                    "type": "Text",
-                    "value": "CopyrightOwner",
-                    "purpose": "tagging"
-                  },
-                  {
-                    "type": "Text",
-                    "value": "George Robert Newton, 30 Lumley Road, Skegness, Lincolnshire.",
-                    "purpose": "describing"
-                  }
-                ]
-              },
-              {
-                "id": "https://example.org/iiif/annotation/COPY1/60/20/region-4",
-                "type": "Annotation",
-                "motivation": "commenting",
-                "label": {
-                  "en": [
-                    "William Smyth, Skegness."
-                  ]
-                },
-                "target": "https://example.org/iiif/canvas/COPY1/60/20#xywh=2094,838,429,798",
-                "body": [
-                  {
-                    "type": "Text",
-                    "value": "CopyrightAuthor",
-                    "purpose": "tagging"
-                  },
-                  {
-                    "type": "Text",
-                    "value": "William Smyth, Skegness.",
-                    "purpose": "describing"
-                  }
-                ]
-              },
-              {
-                "id": "https://example.org/iiif/annotation/COPY1/60/20/region-6",
-                "type": "Annotation",
-                "motivation": "commenting",
-                "label": {
-                  "en": [
-                    "7 February 1883"
-                  ]
-                },
-                "target": "https://example.org/iiif/canvas/COPY1/60/20#xywh=324,1602,2188,208",
-                "body": [
-                  {
-                    "type": "Text",
-                    "value": "FormCompleted",
-                    "purpose": "tagging"
-                  },
-                  {
-                    "type": "Text",
-                    "value": "7 February 1883",
-                    "purpose": "describing"
-                  }
-                ]
-              }
-            ]
           ]
         }
       ]
