@@ -24,37 +24,37 @@
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/iiif/annotation/COPY1/60/156",
+              "id": "https://example.org/iiif/annotation/COPY1/60/181",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://files.transkribus.eu/iiif/2/DLZECJGJOUUXANEUNHOOXYHE/full/full/0/default.jpg",
+                "id": "https://files.transkribus.eu/iiif/2/XLFRXTFSTCAHJWEOCQVOZZEB/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3508,
                 "height": 2479,
                 "service": [
                   {
-                    "id": "https://files.transkribus.eu/iiif/2/DLZECJGJOUUXANEUNHOOXYHE",
+                    "id": "https://files.transkribus.eu/iiif/2/XLFRXTFSTCAHJWEOCQVOZZEB",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/156"
+              "target": "https://example.org/iiif/canvas/COPY1/60/181"
             },
             {
-              "id": "https://example.org/iiif/annotation/COPY1/60/156/photo",
+              "id": "https://example.org/iiif/annotation/COPY1/60/181/photo",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://files.transkribus.eu/iiif/2/DLZECJGJOUUXANEUNHOOXYHE/315,1576,743,698/full/0/default.jpg",
+                "id": "https://files.transkribus.eu/iiif/2/PYPHFZLDGXJFECMUBLRXNYNB/1806,438,696,1088/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "width": 743,
-                "height": 698
+                "width": 696,
+                "height": 1088
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/156#xywh=100,100,743,698"
+              "target": "https://example.org/iiif/canvas/COPY1/60/181#xywh=100,100,696,1088"
             }
           ]
         }
@@ -63,7 +63,100 @@
         {
           "id": "https://example.org/iiif/COPY1/60/181/regions",
           "type": "AnnotationPage",
-          "items": []
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/181/region-2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "'Photograph of Mr Henry Irving, seated, nearly full face, right hand in pocket with cuff seen, head slightly to right shoulder'. "
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/181#xywh=323,822,746,777",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "DescriptionText",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "'Photograph of Mr Henry Irving, seated, nearly full face, right hand in pocket with cuff seen, head slightly to right shoulder'. ",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/181/region-5",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "Hugh Watson, The Manor Farm, East Acton, London."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/181#xywh=1676,782,389,789",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightOwner",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "Hugh Watson, The Manor Farm, East Acton, London.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/181/region-6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "Hugh Watson, The Manor Farm, East Acton, London."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/181#xywh=2048,782,461,781",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightAuthor",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "Hugh Watson, The Manor Farm, East Acton, London.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/181/region-7",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "3 March 1883"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/181#xywh=330,1572,2172,200",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "FormCompleted",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "3 March 1883",
+                  "purpose": "describing"
+                }
+              ]
+            }
+          ]
         }
       ]
     }

@@ -24,37 +24,37 @@
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/iiif/annotation/COPY1/60/156",
+              "id": "https://example.org/iiif/annotation/COPY1/60/187",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://files.transkribus.eu/iiif/2/DLZECJGJOUUXANEUNHOOXYHE/full/full/0/default.jpg",
+                "id": "https://files.transkribus.eu/iiif/2/MTYPJBWGJJAILEFCJXOADGMZ/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3508,
                 "height": 2479,
                 "service": [
                   {
-                    "id": "https://files.transkribus.eu/iiif/2/DLZECJGJOUUXANEUNHOOXYHE",
+                    "id": "https://files.transkribus.eu/iiif/2/MTYPJBWGJJAILEFCJXOADGMZ",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/156"
+              "target": "https://example.org/iiif/canvas/COPY1/60/187"
             },
             {
-              "id": "https://example.org/iiif/annotation/COPY1/60/156/photo",
+              "id": "https://example.org/iiif/annotation/COPY1/60/187/photo",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://files.transkribus.eu/iiif/2/DLZECJGJOUUXANEUNHOOXYHE/315,1576,743,698/full/0/default.jpg",
+                "id": "https://files.transkribus.eu/iiif/2/UWCGBDKXYSUFQSJHWAOJJVWR/1119,411,791,1262/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "width": 743,
-                "height": 698
+                "width": 791,
+                "height": 1262
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/156#xywh=100,100,743,698"
+              "target": "https://example.org/iiif/canvas/COPY1/60/187#xywh=100,100,791,1262"
             }
           ]
         }
@@ -63,7 +63,100 @@
         {
           "id": "https://example.org/iiif/COPY1/60/187/regions",
           "type": "AnnotationPage",
-          "items": []
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/187/region-2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "'Photograph of Miss Ellen Terry, profile face and figure left side, looking down'. "
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/187#xywh=329,817,773,776",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "DescriptionText",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "'Photograph of Miss Ellen Terry, profile face and figure left side, looking down'. ",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/187/region-4",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "Hayman Seleg Mendelssohn, 27 Cathcart Road, South Kensington, Middlesex."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/187#xywh=1365,834,792,768",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightOwner",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "Hayman Seleg Mendelssohn, 27 Cathcart Road, South Kensington, Middlesex.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/187/region-5",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "Hayman Seleg Mendelssohn, 27 Cathcart Road, South Kensington, Middlesex."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/187#xywh=2105,824,460,778",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightAuthor",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "Hayman Seleg Mendelssohn, 27 Cathcart Road, South Kensington, Middlesex.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/187/region-6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "1 March 1883"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/187#xywh=363,1589,2190,218",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "FormCompleted",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "1 March 1883",
+                  "purpose": "describing"
+                }
+              ]
+            }
+          ]
         }
       ]
     }

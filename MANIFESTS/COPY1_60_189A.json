@@ -24,37 +24,24 @@
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/iiif/annotation/COPY1/60/156",
+              "id": "https://example.org/iiif/annotation/COPY1/60/189A",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://files.transkribus.eu/iiif/2/DLZECJGJOUUXANEUNHOOXYHE/full/full/0/default.jpg",
+                "id": "https://files.transkribus.eu/iiif/2/IMIWHPWPOHEQWZIZFNQOLUDU/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3508,
                 "height": 2479,
                 "service": [
                   {
-                    "id": "https://files.transkribus.eu/iiif/2/DLZECJGJOUUXANEUNHOOXYHE",
+                    "id": "https://files.transkribus.eu/iiif/2/IMIWHPWPOHEQWZIZFNQOLUDU",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/156"
-            },
-            {
-              "id": "https://example.org/iiif/annotation/COPY1/60/156/photo",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://files.transkribus.eu/iiif/2/DLZECJGJOUUXANEUNHOOXYHE/315,1576,743,698/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "width": 743,
-                "height": 698
-              },
-              "target": "https://example.org/iiif/canvas/COPY1/60/156#xywh=100,100,743,698"
+              "target": "https://example.org/iiif/canvas/COPY1/60/189A"
             }
           ]
         }
@@ -63,7 +50,100 @@
         {
           "id": "https://example.org/iiif/COPY1/60/189A/regions",
           "type": "AnnotationPage",
-          "items": []
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/189A/region-2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "1) 'Photograph of Archbishop Benson, standing, full face, gloves in right hand, umbrella in left'. \n2) 'Photograph of Archbishop Benson, seated, legs crossed, ¾ face, left hand on book on table, right elbow on arm of chair'. \n3) 'Photograph of Archbishop Benson, seated, ¾ face, paper in left hand resting on arm of chair, pen in right hand'. \n4) 'Photograph of Archbishop Benson, seated, ¾ face, holding book on his lap, legs crossed'. \nNo copy of photographs annexed. "
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/189A#xywh=250,812,911,827",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "DescriptionText",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "1) 'Photograph of Archbishop Benson, standing, full face, gloves in right hand, umbrella in left'. \n2) 'Photograph of Archbishop Benson, seated, legs crossed, ¾ face, left hand on book on table, right elbow on arm of chair'. \n3) 'Photograph of Archbishop Benson, seated, ¾ face, paper in left hand resting on arm of chair, pen in right hand'. \n4) 'Photograph of Archbishop Benson, seated, ¾ face, holding book on his lap, legs crossed'. \nNo copy of photographs annexed. ",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/189A/region-3",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "Frederick Argall, High Cross, Truro."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/189A#xywh=1589,847,402,801",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightOwner",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "Frederick Argall, High Cross, Truro.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/189A/region-4",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "Frederick Argall, High Cross, Truro."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/189A#xywh=1970,852,428,811",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightAuthor",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "Frederick Argall, High Cross, Truro.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/189A/region-5",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "22 February 1883"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/189A#xywh=289,1619,2075,215",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "FormCompleted",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "22 February 1883",
+                  "purpose": "describing"
+                }
+              ]
+            }
+          ]
         }
       ]
     }
