@@ -1,67 +1,67 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://example.org/iiif/manifest/COPY1/60/155.json",
+  "id": "https://example.org/iiif/manifest/COPY1/60/176.json",
   "type": "Manifest",
   "label": {
     "en": [
-      "COPY1/60/155"
+      "COPY1/60/176"
     ]
   },
   "items": [
     {
-      "id": "https://example.org/iiif/canvas/COPY1/60/155",
+      "id": "https://example.org/iiif/canvas/COPY1/60/176",
       "type": "Canvas",
       "label": {
         "en": [
-          "COPY1/60/155"
+          "COPY1/60/176"
         ]
       },
       "width": 3508,
       "height": 2479,
       "items": [
         {
-          "id": "https://example.org/iiif/annotationpage/COPY1/60/155",
+          "id": "https://example.org/iiif/annotationpage/COPY1/60/176",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/iiif/annotation/COPY1/60/154",
+              "id": "https://example.org/iiif/annotation/COPY1/60/156",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://files.transkribus.eu/iiif/2/LLEDYJIAGSFPNYNTNWIQRHBP/full/full/0/default.jpg",
+                "id": "https://files.transkribus.eu/iiif/2/DLZECJGJOUUXANEUNHOOXYHE/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3508,
                 "height": 2479,
                 "service": [
                   {
-                    "id": "https://files.transkribus.eu/iiif/2/LLEDYJIAGSFPNYNTNWIQRHBP",
+                    "id": "https://files.transkribus.eu/iiif/2/DLZECJGJOUUXANEUNHOOXYHE",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/154"
+              "target": "https://example.org/iiif/canvas/COPY1/60/156"
             },
             {
-              "id": "https://example.org/iiif/annotation/COPY1/60/154/photo",
+              "id": "https://example.org/iiif/annotation/COPY1/60/156/photo",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://files.transkribus.eu/iiif/2/LLEDYJIAGSFPNYNTNWIQRHBP/1485,428,1057,724/full/0/default.jpg",
+                "id": "https://files.transkribus.eu/iiif/2/DLZECJGJOUUXANEUNHOOXYHE/315,1576,743,698/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "width": 1057,
-                "height": 724
+                "width": 743,
+                "height": 698
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/154#xywh=100,100,1057,724"
+              "target": "https://example.org/iiif/canvas/COPY1/60/156#xywh=100,100,743,698"
             }
           ]
         }
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/COPY1/60/155/regions",
+          "id": "https://example.org/iiif/COPY1/60/176/regions",
           "type": "AnnotationPage",
           "items": []
         }
