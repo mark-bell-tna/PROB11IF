@@ -604,6 +604,23 @@
       ]
     },
     {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/COPY1IIF/refs/heads/main/MANIFESTS/COPY1_60_36.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/36"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/KIUOYHNRUPSSPVTPISTZVYIY/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
       "id": "https://raw.githubusercontent.com/mark-bell-tna/COPY1IIF/refs/heads/main/MANIFESTS/COPY1_60_37.json",
       "type": "Manifest",
       "label": {
@@ -699,6 +716,23 @@
       "thumbnail": [
         {
           "id": "https://files.transkribus.eu/iiif/2/PTBGZRUHHSYXVNQTAKVWYYBU/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/COPY1IIF/refs/heads/main/MANIFESTS/COPY1_60_43.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/43"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/LNKMNSDGDOARCLUKMFHECNEN/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -868,7 +902,24 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/MZOZETLIHKGGQNPGIMYTKPES/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/VZZMWZADFRHSCEKMWSDWAYPB/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/COPY1IIF/refs/heads/main/MANIFESTS/COPY1_60_54.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/54"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/IVNEKUHEEFQJLXTNUOUHBKDU/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -1386,6 +1437,23 @@
       ]
     },
     {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/COPY1IIF/refs/heads/main/MANIFESTS/COPY1_60_85.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/85"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/MKITMDCWQBVXZGIEIXFNEQFN/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
       "id": "https://raw.githubusercontent.com/mark-bell-tna/COPY1IIF/refs/heads/main/MANIFESTS/COPY1_60_86.json",
       "type": "Manifest",
       "label": {
@@ -1582,7 +1650,24 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/ERYVFBTTRGSRCWRYAKZQNKZE/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/ZLKMKJQTZIZRZVGHJRHNTYUR/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/COPY1IIF/refs/heads/main/MANIFESTS/COPY1_60_98.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/98"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/CVSLOPZCBUQFXZEVFWRNHXZR/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -1599,7 +1684,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/YRXSYZMFRZTUMCMSIDQJTRFJ/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/HMPTKKTYAIVUGALOLYYQXBMQ/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -1616,7 +1701,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/TGSHSALNDOFLILKSYKOVOUTO/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/YCNLFOEYDEMZADMEAORMMHEY/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -1633,7 +1718,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/HWWNMDXVRCXYYFADEFFDJJCB/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/DHUZJDIRFDVNCVYLHMUSEXBR/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -1684,7 +1769,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/VWIOMKVNPWPFLNNKDHFNBZPM/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/HAFLQXYVPRRPRDMGORIGYJPT/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -1701,7 +1786,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/TCREAFSIFAJKIIGFNVWQFFGE/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/WEJQVEZMKZJGCDNXIUZWYTOO/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -1718,7 +1803,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/YKYGEBBSNPKHUKWSSCXBTOJP/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/KGKCZVARHMCSPALELVKTRFEE/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -1735,7 +1820,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/LTOUKUCYEFHHNWQMLQKGGMPM/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/OUERNFXEGVWWGNCNJFJBIHQU/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -1752,7 +1837,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/CDYIAYXYYMWQWFVJZWGAGOPM/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/ENHHXSFNINJVWTCWSSYIBREQ/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -1769,7 +1854,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/QTFZTCUVWENGHWXDIJLNPYWU/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/WXXEPATHILDOVCMCYEACWFIN/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -1786,7 +1871,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/JPPSNOGZAWJVCOLOMPCFBJOQ/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/LAVLRRYWVUQEABRWTQMJOCGX/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -1803,7 +1888,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/JNXUVIHGBYWSUFAALCAGMCKL/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/KKFMYLZQDIYVYCOZCJQBADXQ/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -1820,7 +1905,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/FAVZYOOYYRUDBBPURTLSFWKX/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/KUPMOXLSNNQSKGYFVYEBLMWE/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -1837,7 +1922,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/HSROFAAEKMCJKMZREVWIRYFV/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/WMPPVXFVGGDTODAQLOEWZKMT/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -1854,7 +1939,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/OIQWVGPGXOGFQGRGDZECXVND/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/DAAPNZILEGMLQRNKSLWZWVHU/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -1922,7 +2007,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/VZUIHIPTHRWYJTTSMSYMQWOX/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/BVQJHMSNLBBHCWNQASIQPXZS/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -1939,7 +2024,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/BQJITYJQCXMLJRCHJWXXZMRE/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/CKAZPXYTTRQYXODPVSJSZYUI/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -1956,7 +2041,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/DINJXLCZSQPDZUKMRFDPILZP/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/OVLMSYHYZWTCNMRVFSYDTKXR/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -2007,7 +2092,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/RLLXCZDISLTBYHBGHOWMGQZG/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/GZNXTPCBFJQLSNDGNKZTSXJL/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -2024,7 +2109,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/LEPVMZJYYPKUFKAUZASOUQMY/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/ROXMEUXTAYOSQHSZBPUVCESJ/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -2075,7 +2160,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/GBRTUWWNERONKROGYQNAQNPP/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/BYWHSCANLXCXWVTTOOXFOPNT/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -2092,7 +2177,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/VDZYRNLTPBGTYKTCLEHLHPIX/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/JXIQQZXTJUQSBLKODIZIVTQL/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -2109,7 +2194,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/DZASKJNTBPCFMTWRLTPJVDGH/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/TDHXQQTANKJPBSNFGTPINUFM/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -2126,7 +2211,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/BFWPOJDJFTDBWYXAUIWBXYRL/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/BARCUTUWHLEHXXSTZZSBWSDG/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -2143,7 +2228,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/VTYXHZZNIFNBUAHHKQDBPYWD/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/FRGDCJIDYPENHQQROEUJCBZC/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -2211,7 +2296,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/BEAHEHYVFAAHLCDHDCKHQOOR/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/NMYTFNLUYOCNKQRCYKFJIEMX/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -2228,7 +2313,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/PWPWOUZZFZRVNQVABXVKEJGS/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/HCCFMQDXNROXSBTHASUFXSAT/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -2245,7 +2330,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/ONOLKSEGTQHBIXNGLFSIOEFF/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/TDEFMFWLFRHEUGJMCNVMTJEW/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -2262,7 +2347,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/OAJQZGHOGPVODLJRMCDZRTMR/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/UHHGAUHUGFWLCQJKVDWQLHMV/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -2279,7 +2364,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/XKIYRAJONTPJJTTSUHLRIJWL/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/OFEBLLYVBHRTADXHJCADSVJC/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -2296,7 +2381,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/PKPTQZQCHYMSGGWCCJXVSFSL/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/QWFKPERPXBCPTHLVJGNMEVEJ/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -2313,7 +2398,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/ABYWFZXSHEBNUGQAKGEQVMCT/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/VLTLSNROOKUMYGOWTGLENHFV/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -2330,7 +2415,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/JCCWCOTDIUUSXLLHHTOEJTMI/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/MTQEZVUJNJRXZJUJTLXLLFHI/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -2347,7 +2432,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/FSZTIQBYKINRNJBXZBELRCCT/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/GPSBHFTHDBIGGYWGNNMDHOPF/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -2364,7 +2449,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/NXRXNRJZZUNIOEKNTFLNWLRG/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/BVWSOCSANGBFJOEJARDOTWOS/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -2381,7 +2466,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/VGNDKQTEDWEDOAVAQFIZWPIP/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/LSBMWGZOHANXPVPKXGCQYEBG/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -2398,7 +2483,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/ISCGLTFGGODEIEIJSMISTEFD/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/OAYIHTDAUHRINXYWLMWPCEPS/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -2415,7 +2500,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/HKECREZRUDKGEKZVYFHRCGNS/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/ESXIVTDNVZNXUCGHGTFMPOIM/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -2432,7 +2517,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/WTQYYHDUFXJQQPXKBBKCNNKV/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/KEHEAWMVYKKJUMCEVHEZWLFB/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -2449,7 +2534,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/MFKJRMRIMTLYZPADDFHNJLJJ/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/VFAOQJICWYVTVJMOJZYNYTNF/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -2466,7 +2551,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/AGSYTPEGXEYYPYXOPDPWESPX/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/XHNWATCUTNTOLULIRVXRRAOZ/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -2483,7 +2568,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/SAKLKHOQQWUHNBEELUONXONF/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/AGLEGMRFYPAMJAPIBEWFQDCX/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -2517,7 +2602,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/GEXAAHDQVYFIDAAWJQTKYDFJ/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/BNOMHJLZSWVUHAAQWKOXTXQR/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -2534,7 +2619,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://files.transkribus.eu/iiif/2/LLEDYJIAGSFPNYNTNWIQRHBP/full/200,/0/default.jpg",
+          "id": "https://files.transkribus.eu/iiif/2/HLFWBZUGUXPTSJGVILBOPZDY/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200
@@ -2909,6 +2994,23 @@
       "thumbnail": [
         {
           "id": "https://files.transkribus.eu/iiif/2/VGUIJELMQCXKFNMQBIFVILNU/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200
+        }
+      ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mark-bell-tna/COPY1IIF/refs/heads/main/MANIFESTS/COPY1_60_177.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "COPY1/60/177"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://files.transkribus.eu/iiif/2/GZLHMXRDVVUQLKZUFPNDUFZH/full/200,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "width": 200

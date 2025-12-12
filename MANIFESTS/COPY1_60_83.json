@@ -24,37 +24,37 @@
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/iiif/annotation/COPY1/60/53",
+              "id": "https://example.org/iiif/annotation/COPY1/60/83",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://files.transkribus.eu/iiif/2/MZOZETLIHKGGQNPGIMYTKPES/full/full/0/default.jpg",
+                "id": "https://files.transkribus.eu/iiif/2/MLWWQYNKHWHOUAADQPBUGHZT/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3508,
                 "height": 2479,
                 "service": [
                   {
-                    "id": "https://files.transkribus.eu/iiif/2/MZOZETLIHKGGQNPGIMYTKPES",
+                    "id": "https://files.transkribus.eu/iiif/2/MLWWQYNKHWHOUAADQPBUGHZT",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/53"
+              "target": "https://example.org/iiif/canvas/COPY1/60/83"
             },
             {
-              "id": "https://example.org/iiif/annotation/COPY1/60/53/photo",
+              "id": "https://example.org/iiif/annotation/COPY1/60/83/photo",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://files.transkribus.eu/iiif/2/MZOZETLIHKGGQNPGIMYTKPES/2181,429,406,627/full/0/default.jpg",
+                "id": "https://files.transkribus.eu/iiif/2/OVAXSENBJUSSBTATSCPJCSSS/956,252,1621,1993/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "width": 406,
-                "height": 627
+                "width": 1621,
+                "height": 1993
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/53#xywh=100,100,406,627"
+              "target": "https://example.org/iiif/canvas/COPY1/60/83#xywh=100,100,1621,1993"
             }
           ]
         }
@@ -63,7 +63,100 @@
         {
           "id": "https://example.org/iiif/COPY1/60/83/regions",
           "type": "AnnotationPage",
-          "items": []
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/83/region-2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "'Photograph of Doctor Delaney, Bishop of Cork, sitting, with right hand up to head'. "
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/83#xywh=354,780,862,836",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "DescriptionText",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "'Photograph of Doctor Delaney, Bishop of Cork, sitting, with right hand up to head'. ",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/83/region-3",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "Francis Guy and Company, 70 Patrick Street, Cork."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/83#xywh=1775,778,403,825",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightOwner",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "Francis Guy and Company, 70 Patrick Street, Cork.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/83/region-4",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "Francis Guy and Company, 70 Patrick Street, Cork."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/83#xywh=2155,785,457,835",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightAuthor",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "Francis Guy and Company, 70 Patrick Street, Cork.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/83/region-5",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "19 February 1883"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/83#xywh=387,1589,2218,199",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "FormCompleted",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "19 February 1883",
+                  "purpose": "describing"
+                }
+              ]
+            }
+          ]
         }
       ]
     }

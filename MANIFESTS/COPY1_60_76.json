@@ -24,37 +24,24 @@
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/iiif/annotation/COPY1/60/53",
+              "id": "https://example.org/iiif/annotation/COPY1/60/76",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://files.transkribus.eu/iiif/2/MZOZETLIHKGGQNPGIMYTKPES/full/full/0/default.jpg",
+                "id": "https://files.transkribus.eu/iiif/2/JFPZGJSQLZKZMCXAWISFOCVL/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3508,
                 "height": 2479,
                 "service": [
                   {
-                    "id": "https://files.transkribus.eu/iiif/2/MZOZETLIHKGGQNPGIMYTKPES",
+                    "id": "https://files.transkribus.eu/iiif/2/JFPZGJSQLZKZMCXAWISFOCVL",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/53"
-            },
-            {
-              "id": "https://example.org/iiif/annotation/COPY1/60/53/photo",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://files.transkribus.eu/iiif/2/MZOZETLIHKGGQNPGIMYTKPES/2181,429,406,627/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "width": 406,
-                "height": 627
-              },
-              "target": "https://example.org/iiif/canvas/COPY1/60/53#xywh=100,100,406,627"
+              "target": "https://example.org/iiif/canvas/COPY1/60/76"
             }
           ]
         }
@@ -63,7 +50,100 @@
         {
           "id": "https://example.org/iiif/COPY1/60/76/regions",
           "type": "AnnotationPage",
-          "items": []
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/76/region-2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "'Photograph of Stephen Monckton Esq., MD, JP, of Maidstone, vignette, ¾ face, shadow side prominent'. "
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/76#xywh=312,892,777,781",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "DescriptionText",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "'Photograph of Stephen Monckton Esq., MD, JP, of Maidstone, vignette, ¾ face, shadow side prominent'. ",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/76/region-3",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "John Henry Clarke, 46 Week Street, Maidstone, Kent."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/76#xywh=1649,876,384,798",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightOwner",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "John Henry Clarke, 46 Week Street, Maidstone, Kent.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/76/region-4",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "John Henry Clarke, 46 Week Street, Maidstone, Kent."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/76#xywh=2020,868,403,874",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightAuthor",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "John Henry Clarke, 46 Week Street, Maidstone, Kent.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/76/region-6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "23 February 1883"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/76#xywh=369,1648,2052,205",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "FormCompleted",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "23 February 1883",
+                  "purpose": "describing"
+                }
+              ]
+            }
+          ]
         }
       ]
     }

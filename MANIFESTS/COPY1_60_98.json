@@ -1,0 +1,71 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/manifest/COPY1/60/98.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "COPY1/60/98"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/iiif/canvas/COPY1/60/98",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "COPY1/60/98"
+        ]
+      },
+      "width": 3508,
+      "height": 2479,
+      "items": [
+        {
+          "id": "https://example.org/iiif/annotationpage/COPY1/60/98",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/97",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/ZLKMKJQTZIZRZVGHJRHNTYUR/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3508,
+                "height": 2479,
+                "service": [
+                  {
+                    "id": "https://files.transkribus.eu/iiif/2/ZLKMKJQTZIZRZVGHJRHNTYUR",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/97"
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/97/photo",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/ERYVFBTTRGSRCWRYAKZQNKZE/321,495,761,1103/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 761,
+                "height": 1103
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/97#xywh=100,100,761,1103"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/iiif/COPY1/60/98/regions",
+          "type": "AnnotationPage",
+          "items": []
+        }
+      ]
+    }
+  ]
+}

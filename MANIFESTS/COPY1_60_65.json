@@ -24,37 +24,37 @@
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/iiif/annotation/COPY1/60/53",
+              "id": "https://example.org/iiif/annotation/COPY1/60/65",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://files.transkribus.eu/iiif/2/MZOZETLIHKGGQNPGIMYTKPES/full/full/0/default.jpg",
+                "id": "https://files.transkribus.eu/iiif/2/QYDVRVJFJMWMNJSOEZRSUCIS/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3508,
                 "height": 2479,
                 "service": [
                   {
-                    "id": "https://files.transkribus.eu/iiif/2/MZOZETLIHKGGQNPGIMYTKPES",
+                    "id": "https://files.transkribus.eu/iiif/2/QYDVRVJFJMWMNJSOEZRSUCIS",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/53"
+              "target": "https://example.org/iiif/canvas/COPY1/60/65"
             },
             {
-              "id": "https://example.org/iiif/annotation/COPY1/60/53/photo",
+              "id": "https://example.org/iiif/annotation/COPY1/60/65/photo",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://files.transkribus.eu/iiif/2/MZOZETLIHKGGQNPGIMYTKPES/2181,429,406,627/full/0/default.jpg",
+                "id": "https://files.transkribus.eu/iiif/2/GQTXUZPBZDUCIAGXPMNMKKKO/1030,435,690,1101/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "width": 406,
-                "height": 627
+                "width": 690,
+                "height": 1101
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/53#xywh=100,100,406,627"
+              "target": "https://example.org/iiif/canvas/COPY1/60/65#xywh=100,100,690,1101"
             }
           ]
         }
@@ -63,7 +63,100 @@
         {
           "id": "https://example.org/iiif/COPY1/60/65/regions",
           "type": "AnnotationPage",
-          "items": []
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/65/region-2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "'Photograph from a crayon drawing of Mr Henry Irving as Benedick, head and bust, three quarter face'. "
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/65#xywh=326,839,834,799",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "DescriptionText",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "'Photograph from a crayon drawing of Mr Henry Irving as Benedick, head and bust, three quarter face'. ",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/65/region-3",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "Frank Hegger, 205 Regent Street, London."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/65#xywh=1755,834,389,803",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightOwner",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "Frank Hegger, 205 Regent Street, London.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/65/region-4",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "Frank Hegger, 205 Regent Street, London."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/65#xywh=2102,851,472,783",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightAuthor",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "Frank Hegger, 205 Regent Street, London.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/65/region-5",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "16 February 1883"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/65#xywh=396,1606,2142,229",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "FormCompleted",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "16 February 1883",
+                  "purpose": "describing"
+                }
+              ]
+            }
+          ]
         }
       ]
     }

@@ -24,37 +24,37 @@
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/iiif/annotation/COPY1/60/53",
+              "id": "https://example.org/iiif/annotation/COPY1/60/89",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://files.transkribus.eu/iiif/2/MZOZETLIHKGGQNPGIMYTKPES/full/full/0/default.jpg",
+                "id": "https://files.transkribus.eu/iiif/2/YCDYEKDOKVRGSGYEKHYQCMCL/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3508,
                 "height": 2479,
                 "service": [
                   {
-                    "id": "https://files.transkribus.eu/iiif/2/MZOZETLIHKGGQNPGIMYTKPES",
+                    "id": "https://files.transkribus.eu/iiif/2/YCDYEKDOKVRGSGYEKHYQCMCL",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/53"
+              "target": "https://example.org/iiif/canvas/COPY1/60/89"
             },
             {
-              "id": "https://example.org/iiif/annotation/COPY1/60/53/photo",
+              "id": "https://example.org/iiif/annotation/COPY1/60/89/photo",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://files.transkribus.eu/iiif/2/MZOZETLIHKGGQNPGIMYTKPES/2181,429,406,627/full/0/default.jpg",
+                "id": "https://files.transkribus.eu/iiif/2/TBFLJOUBJXPOGSTWWZBPSIQE/336,319,1714,1375/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "width": 406,
-                "height": 627
+                "width": 1714,
+                "height": 1375
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/53#xywh=100,100,406,627"
+              "target": "https://example.org/iiif/canvas/COPY1/60/89#xywh=100,100,1714,1375"
             }
           ]
         }
@@ -63,7 +63,100 @@
         {
           "id": "https://example.org/iiif/COPY1/60/89/regions",
           "type": "AnnotationPage",
-          "items": []
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/89/region-2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "'Photograph of ruins of the Newland Mill, Bradford, wrecked by a fall of a chimney, December 28th 1882'. "
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/89#xywh=396,706,834,814",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "DescriptionText",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "'Photograph of ruins of the Newland Mill, Bradford, wrecked by a fall of a chimney, December 28th 1882'. ",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/89/region-4",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "William Child, 14 Wellington Street, Leeds, Yorkshire."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/89#xywh=1768,743,400,808",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightOwner",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "William Child, 14 Wellington Street, Leeds, Yorkshire.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/89/region-5",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "William Child, 14 Wellington Street, Leeds, Yorkshire."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/89#xywh=2150,756,457,812",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightAuthor",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "William Child, 14 Wellington Street, Leeds, Yorkshire.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/89/region-6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "10 January 1883"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/89#xywh=382,1505,2205,247",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "FormCompleted",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "10 January 1883",
+                  "purpose": "describing"
+                }
+              ]
+            }
+          ]
         }
       ]
     }

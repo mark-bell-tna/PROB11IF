@@ -28,14 +28,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://files.transkribus.eu/iiif/2/ERYVFBTTRGSRCWRYAKZQNKZE/full/full/0/default.jpg",
+                "id": "https://files.transkribus.eu/iiif/2/ZLKMKJQTZIZRZVGHJRHNTYUR/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3508,
                 "height": 2479,
                 "service": [
                   {
-                    "id": "https://files.transkribus.eu/iiif/2/ERYVFBTTRGSRCWRYAKZQNKZE",
+                    "id": "https://files.transkribus.eu/iiif/2/ZLKMKJQTZIZRZVGHJRHNTYUR",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
@@ -73,7 +73,7 @@
                   "'Photograph of Miss Eastlake seated, leaning over back of chair, hands to face, nearly profile face, in hood'. "
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/97#xywh=323,858,990,881",
+              "target": "https://example.org/iiif/canvas/COPY1/60/97#xywh=324,861,1047,881",
               "body": [
                 {
                   "type": "Text",
@@ -96,7 +96,7 @@
                   "Alexander Bassano, 25 Old Bond Street, London."
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/97#xywh=1696,853,455,877",
+              "target": "https://example.org/iiif/canvas/COPY1/60/97#xywh=1736,853,491,867",
               "body": [
                 {
                   "type": "Text",
@@ -119,7 +119,7 @@
                   "31 January 1883"
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/97#xywh=317,1706,2309,248",
+              "target": "https://example.org/iiif/canvas/COPY1/60/97#xywh=335,1708,2363,223",
               "body": [
                 {
                   "type": "Text",
@@ -142,7 +142,7 @@
                   "Alexander Bassano, 25 Old Bond Street, London."
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/97#xywh=2122,858,500,870",
+              "target": "https://example.org/iiif/canvas/COPY1/60/97#xywh=2193,858,502,870",
               "body": [
                 {
                   "type": "Text",
