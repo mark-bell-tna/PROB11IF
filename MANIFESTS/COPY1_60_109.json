@@ -28,14 +28,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://files.transkribus.eu/iiif/2/QTFZTCUVWENGHWXDIJLNPYWU/full/full/0/default.jpg",
+                "id": "https://files.transkribus.eu/iiif/2/WXXEPATHILDOVCMCYEACWFIN/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3508,
                 "height": 2479,
                 "service": [
                   {
-                    "id": "https://files.transkribus.eu/iiif/2/QTFZTCUVWENGHWXDIJLNPYWU",
+                    "id": "https://files.transkribus.eu/iiif/2/WXXEPATHILDOVCMCYEACWFIN",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
@@ -70,56 +70,10 @@
               "motivation": "commenting",
               "label": {
                 "en": [
-                  "George Swan Nottage and Howard John Kennard, 54 Cheapside and 110 Regent Street, London."
-                ]
-              },
-              "target": "https://example.org/iiif/canvas/COPY1/60/109#xywh=1723,930,437,815",
-              "body": [
-                {
-                  "type": "Text",
-                  "value": "CopyrightOwner",
-                  "purpose": "tagging"
-                },
-                {
-                  "type": "Text",
-                  "value": "George Swan Nottage and Howard John Kennard, 54 Cheapside and 110 Regent Street, London.",
-                  "purpose": "describing"
-                }
-              ]
-            },
-            {
-              "id": "https://example.org/iiif/annotation/COPY1/60/109/region-4",
-              "type": "Annotation",
-              "motivation": "commenting",
-              "label": {
-                "en": [
-                  "George Swan Nottage and Howard John Kennard, 54 Cheapside and 110 Regent Street, London."
-                ]
-              },
-              "target": "https://example.org/iiif/canvas/COPY1/60/109#xywh=2134,941,451,804",
-              "body": [
-                {
-                  "type": "Text",
-                  "value": "CopyrightAuthor",
-                  "purpose": "tagging"
-                },
-                {
-                  "type": "Text",
-                  "value": "George Swan Nottage and Howard John Kennard, 54 Cheapside and 110 Regent Street, London.",
-                  "purpose": "describing"
-                }
-              ]
-            },
-            {
-              "id": "https://example.org/iiif/annotation/COPY1/60/109/region-5",
-              "type": "Annotation",
-              "motivation": "commenting",
-              "label": {
-                "en": [
                   "'Photograph of Lord Wolseley in general officers uniform with decorations, face nearly in profile turned to his right looking slightly downward'. "
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/109#xywh=362,957,746,732",
+              "target": "https://example.org/iiif/canvas/COPY1/60/109#xywh=407,893,784,853",
               "body": [
                 {
                   "type": "Text",
@@ -139,10 +93,56 @@
               "motivation": "commenting",
               "label": {
                 "en": [
+                  "George Swan Nottage and Howard John Kennard, 54 Cheapside and 110 Regent Street, London."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/109#xywh=1864,884,435,866",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightOwner",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "George Swan Nottage and Howard John Kennard, 54 Cheapside and 110 Regent Street, London.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/109/region-7",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "George Swan Nottage and Howard John Kennard, 54 Cheapside and 110 Regent Street, London."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/109#xywh=2262,884,495,866",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightAuthor",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "George Swan Nottage and Howard John Kennard, 54 Cheapside and 110 Regent Street, London.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/109/region-8",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
                   "29 January 1883"
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/109#xywh=362,1711,2223,245",
+              "target": "https://example.org/iiif/canvas/COPY1/60/109#xywh=401,1726,2339,225",
               "body": [
                 {
                   "type": "Text",

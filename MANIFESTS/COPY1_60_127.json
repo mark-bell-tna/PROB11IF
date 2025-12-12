@@ -28,14 +28,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://files.transkribus.eu/iiif/2/GBRTUWWNERONKROGYQNAQNPP/full/full/0/default.jpg",
+                "id": "https://files.transkribus.eu/iiif/2/BYWHSCANLXCXWVTTOOXFOPNT/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3508,
                 "height": 2479,
                 "service": [
                   {
-                    "id": "https://files.transkribus.eu/iiif/2/GBRTUWWNERONKROGYQNAQNPP",
+                    "id": "https://files.transkribus.eu/iiif/2/BYWHSCANLXCXWVTTOOXFOPNT",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
@@ -73,7 +73,7 @@
                   "'Photograph of a girl kneeling on a chair at a table, cutting up food in a saucer - a dog and cat on the table'. "
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/127#xywh=247,883,870,841",
+              "target": "https://example.org/iiif/canvas/COPY1/60/127#xywh=247,922,922,832",
               "body": [
                 {
                   "type": "Text",
@@ -96,7 +96,7 @@
                   "William Wort, Ashby House, Sutton Coldfield near Birmingham."
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/127#xywh=1625,871,391,816",
+              "target": "https://example.org/iiif/canvas/COPY1/60/127#xywh=1702,914,429,832",
               "body": [
                 {
                   "type": "Text",
@@ -119,7 +119,7 @@
                   "William Wort, Ashby House, Sutton Coldfield near Birmingham."
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/127#xywh=2019,874,429,821",
+              "target": "https://example.org/iiif/canvas/COPY1/60/127#xywh=2097,911,466,835",
               "body": [
                 {
                   "type": "Text",
@@ -142,7 +142,7 @@
                   "15 January 1883"
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/127#xywh=268,1730,2174,202",
+              "target": "https://example.org/iiif/canvas/COPY1/60/127#xywh=264,1752,2304,187",
               "body": [
                 {
                   "type": "Text",

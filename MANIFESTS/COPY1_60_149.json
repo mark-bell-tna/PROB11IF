@@ -28,14 +28,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://files.transkribus.eu/iiif/2/MFKJRMRIMTLYZPADDFHNJLJJ/full/full/0/default.jpg",
+                "id": "https://files.transkribus.eu/iiif/2/VFAOQJICWYVTVJMOJZYNYTNF/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3508,
                 "height": 2479,
                 "service": [
                   {
-                    "id": "https://files.transkribus.eu/iiif/2/MFKJRMRIMTLYZPADDFHNJLJJ",
+                    "id": "https://files.transkribus.eu/iiif/2/VFAOQJICWYVTVJMOJZYNYTNF",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
@@ -73,7 +73,7 @@
                   "'Photograph of a drawing of head and bust of a girl wearing hat, nearly ¾ face, looking down'. "
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/149#xywh=422,757,766,800",
+              "target": "https://example.org/iiif/canvas/COPY1/60/149#xywh=356,811,837,820",
               "body": [
                 {
                   "type": "Text",
@@ -96,7 +96,7 @@
                   "9 February 1883"
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/149#xywh=1160,751,273,822",
+              "target": "https://example.org/iiif/canvas/COPY1/60/149#xywh=1170,808,285,825",
               "body": [
                 {
                   "type": "Text",
@@ -119,7 +119,7 @@
                   "Emily Jane Andrews, and Henry Baldwin William Luks."
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/149#xywh=1405,757,398,816",
+              "target": "https://example.org/iiif/canvas/COPY1/60/149#xywh=1434,816,415,820",
               "body": [
                 {
                   "type": "Text",
@@ -142,7 +142,7 @@
                   "Henry Baldwin William Luks, 35 Breakspeare Road, New Cross SE."
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/149#xywh=1781,757,427,819",
+              "target": "https://example.org/iiif/canvas/COPY1/60/149#xywh=1818,808,410,825",
               "body": [
                 {
                   "type": "Text",
@@ -165,7 +165,7 @@
                   "Henry Baldwin William Luks, 35 Breakspeare Road, New Cross SE."
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/149#xywh=2114,754,446,819",
+              "target": "https://example.org/iiif/canvas/COPY1/60/149#xywh=2186,811,481,822",
               "body": [
                 {
                   "type": "Text",
@@ -180,7 +180,7 @@
               ]
             },
             {
-              "id": "https://example.org/iiif/annotation/COPY1/60/149/region-9",
+              "id": "https://example.org/iiif/annotation/COPY1/60/149/region-8",
               "type": "Annotation",
               "motivation": "commenting",
               "label": {
@@ -188,7 +188,7 @@
                   "28 March 1883"
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/149#xywh=432,1551,2118,232",
+              "target": "https://example.org/iiif/canvas/COPY1/60/149#xywh=370,1610,2288,212",
               "body": [
                 {
                   "type": "Text",

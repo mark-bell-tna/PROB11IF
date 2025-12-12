@@ -28,14 +28,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://files.transkribus.eu/iiif/2/AGSYTPEGXEYYPYXOPDPWESPX/full/full/0/default.jpg",
+                "id": "https://files.transkribus.eu/iiif/2/XHNWATCUTNTOLULIRVXRRAOZ/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3508,
                 "height": 2479,
                 "service": [
                   {
-                    "id": "https://files.transkribus.eu/iiif/2/AGSYTPEGXEYYPYXOPDPWESPX",
+                    "id": "https://files.transkribus.eu/iiif/2/XHNWATCUTNTOLULIRVXRRAOZ",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
@@ -73,7 +73,7 @@
                   "'Photograph of a drawing of Mr Henry Irving as Benedick, standing right hand to face, full figure'. "
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/150#xywh=332,781,766,801",
+              "target": "https://example.org/iiif/canvas/COPY1/60/150#xywh=355,820,756,828",
               "body": [
                 {
                   "type": "Text",
@@ -96,7 +96,7 @@
                   "5 March 1883"
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/150#xywh=1093,786,275,796",
+              "target": "https://example.org/iiif/canvas/COPY1/60/150#xywh=1092,824,304,836",
               "body": [
                 {
                   "type": "Text",
@@ -119,7 +119,7 @@
                   "Ethel Webling, and Henry Baldwin William Luks."
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/150#xywh=1327,790,448,794",
+              "target": "https://example.org/iiif/canvas/COPY1/60/150#xywh=1354,817,444,843",
               "body": [
                 {
                   "type": "Text",
@@ -142,7 +142,7 @@
                   "Henry Baldwin William Luks, 35 Breakspeare Road, New Cross SE."
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/150#xywh=1774,783,377,793",
+              "target": "https://example.org/iiif/canvas/COPY1/60/150#xywh=1779,817,414,843",
               "body": [
                 {
                   "type": "Text",
@@ -165,7 +165,7 @@
                   "Henry Baldwin William Luks, 35 Breakspeare Road, New Cross SE."
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/150#xywh=2151,786,405,790",
+              "target": "https://example.org/iiif/canvas/COPY1/60/150#xywh=2140,813,475,850",
               "body": [
                 {
                   "type": "Text",
@@ -180,7 +180,7 @@
               ]
             },
             {
-              "id": "https://example.org/iiif/annotation/COPY1/60/150/region-9",
+              "id": "https://example.org/iiif/annotation/COPY1/60/150/region-8",
               "type": "Annotation",
               "motivation": "commenting",
               "label": {
@@ -188,7 +188,7 @@
                   "28 March 1883"
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/150#xywh=329,1555,2234,231",
+              "target": "https://example.org/iiif/canvas/COPY1/60/150#xywh=351,1622,2249,231",
               "body": [
                 {
                   "type": "Text",

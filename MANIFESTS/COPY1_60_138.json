@@ -28,14 +28,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://files.transkribus.eu/iiif/2/OAJQZGHOGPVODLJRMCDZRTMR/full/full/0/default.jpg",
+                "id": "https://files.transkribus.eu/iiif/2/UHHGAUHUGFWLCQJKVDWQLHMV/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3508,
                 "height": 2479,
                 "service": [
                   {
-                    "id": "https://files.transkribus.eu/iiif/2/OAJQZGHOGPVODLJRMCDZRTMR",
+                    "id": "https://files.transkribus.eu/iiif/2/UHHGAUHUGFWLCQJKVDWQLHMV",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
@@ -65,7 +65,7 @@
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/iiif/annotation/COPY1/60/138/region-2",
+              "id": "https://example.org/iiif/annotation/COPY1/60/138/region-3",
               "type": "Annotation",
               "motivation": "commenting",
               "label": {
@@ -73,7 +73,7 @@
                   "'Photograph of P J Tynan (No 2) in volunteer uniform looking to his right'. "
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/138#xywh=355,921,802,829",
+              "target": "https://example.org/iiif/canvas/COPY1/60/138#xywh=324,985,684,835",
               "body": [
                 {
                   "type": "Text",
@@ -96,7 +96,7 @@
                   "Thomas George Hennery, 13 Hanover Street, Peckham SE."
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/138#xywh=1799,913,440,838",
+              "target": "https://example.org/iiif/canvas/COPY1/60/138#xywh=1598,979,385,832",
               "body": [
                 {
                   "type": "Text",
@@ -119,7 +119,7 @@
                   "Thomas George Hennery, 13 Hanover Street, Peckham SE."
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/138#xywh=2242,913,440,828",
+              "target": "https://example.org/iiif/canvas/COPY1/60/138#xywh=1963,982,417,832",
               "body": [
                 {
                   "type": "Text",
@@ -142,7 +142,7 @@
                   "30 March 1883"
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/138#xywh=355,1735,2327,212",
+              "target": "https://example.org/iiif/canvas/COPY1/60/138#xywh=327,1770,2046,222",
               "body": [
                 {
                   "type": "Text",

@@ -28,14 +28,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://files.transkribus.eu/iiif/2/RLLXCZDISLTBYHBGHOWMGQZG/full/full/0/default.jpg",
+                "id": "https://files.transkribus.eu/iiif/2/GZNXTPCBFJQLSNDGNKZTSXJL/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3508,
                 "height": 2479,
                 "service": [
                   {
-                    "id": "https://files.transkribus.eu/iiif/2/RLLXCZDISLTBYHBGHOWMGQZG",
+                    "id": "https://files.transkribus.eu/iiif/2/GZNXTPCBFJQLSNDGNKZTSXJL",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
@@ -73,7 +73,7 @@
                   "'Photograph of the Countess of Dudley nearly full face looking to her right, with square cut low dress'. \nNo copy of photograph annexed. "
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/123#xywh=341,908,922,836",
+              "target": "https://example.org/iiif/canvas/COPY1/60/123#xywh=337,892,930,862",
               "body": [
                 {
                   "type": "Text",
@@ -96,7 +96,7 @@
                   "W and D Downey, 57 Ebury Street, London."
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/123#xywh=1782,886,459,866",
+              "target": "https://example.org/iiif/canvas/COPY1/60/123#xywh=1800,895,401,893",
               "body": [
                 {
                   "type": "Text",
@@ -119,7 +119,7 @@
                   "W and D Downey, 57 Ebury Street, London."
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/123#xywh=2233,894,428,855",
+              "target": "https://example.org/iiif/canvas/COPY1/60/123#xywh=2186,897,438,886",
               "body": [
                 {
                   "type": "Text",
@@ -142,7 +142,7 @@
                   "18 January 1883"
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/123#xywh=358,1707,2303,228",
+              "target": "https://example.org/iiif/canvas/COPY1/60/123#xywh=358,1755,2297,188",
               "body": [
                 {
                   "type": "Text",

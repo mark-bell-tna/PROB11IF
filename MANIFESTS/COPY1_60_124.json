@@ -28,14 +28,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://files.transkribus.eu/iiif/2/LEPVMZJYYPKUFKAUZASOUQMY/full/full/0/default.jpg",
+                "id": "https://files.transkribus.eu/iiif/2/ROXMEUXTAYOSQHSZBPUVCESJ/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3508,
                 "height": 2479,
                 "service": [
                   {
-                    "id": "https://files.transkribus.eu/iiif/2/LEPVMZJYYPKUFKAUZASOUQMY",
+                    "id": "https://files.transkribus.eu/iiif/2/ROXMEUXTAYOSQHSZBPUVCESJ",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
@@ -73,7 +73,7 @@
                   "'Photograph of Fannie Leslie (Mrs W Gooch) leaning over and washing clothes in tub'. "
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/124#xywh=292,908,834,827",
+              "target": "https://example.org/iiif/canvas/COPY1/60/124#xywh=292,894,818,822",
               "body": [
                 {
                   "type": "Text",
@@ -96,7 +96,7 @@
                   "Edward Smith, 3 Cheapside, London."
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/124#xywh=1711,914,453,798",
+              "target": "https://example.org/iiif/canvas/COPY1/60/124#xywh=1693,894,446,804",
               "body": [
                 {
                   "type": "Text",
@@ -119,7 +119,7 @@
                   "Edward Smith, 3 Cheapside, London."
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/124#xywh=2124,908,465,801",
+              "target": "https://example.org/iiif/canvas/COPY1/60/124#xywh=2086,896,466,792",
               "body": [
                 {
                   "type": "Text",
@@ -142,7 +142,7 @@
                   "17 January 1883"
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/124#xywh=301,1718,2288,191",
+              "target": "https://example.org/iiif/canvas/COPY1/60/124#xywh=287,1684,2269,212",
               "body": [
                 {
                   "type": "Text",

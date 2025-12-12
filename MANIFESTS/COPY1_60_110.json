@@ -28,14 +28,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://files.transkribus.eu/iiif/2/JPPSNOGZAWJVCOLOMPCFBJOQ/full/full/0/default.jpg",
+                "id": "https://files.transkribus.eu/iiif/2/LAVLRRYWVUQEABRWTQMJOCGX/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3508,
                 "height": 2479,
                 "service": [
                   {
-                    "id": "https://files.transkribus.eu/iiif/2/JPPSNOGZAWJVCOLOMPCFBJOQ",
+                    "id": "https://files.transkribus.eu/iiif/2/LAVLRRYWVUQEABRWTQMJOCGX",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
@@ -70,19 +70,19 @@
               "motivation": "commenting",
               "label": {
                 "en": [
-                  "George Swan Nottage and Howard John Kennard, 54 Cheapside and 110 Regent Street, London."
+                  "'Photograph of Lord Wolseley in general officers uniform with decorations, face almost profile looking to his right, slightly upwards'. "
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/110#xywh=1719,869,437,797",
+              "target": "https://example.org/iiif/canvas/COPY1/60/110#xywh=262,983,778,809",
               "body": [
                 {
                   "type": "Text",
-                  "value": "CopyrightOwner",
+                  "value": "DescriptionText",
                   "purpose": "tagging"
                 },
                 {
                   "type": "Text",
-                  "value": "George Swan Nottage and Howard John Kennard, 54 Cheapside and 110 Regent Street, London.",
+                  "value": "'Photograph of Lord Wolseley in general officers uniform with decorations, face almost profile looking to his right, slightly upwards'. ",
                   "purpose": "describing"
                 }
               ]
@@ -96,11 +96,11 @@
                   "George Swan Nottage and Howard John Kennard, 54 Cheapside and 110 Regent Street, London."
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/110#xywh=2128,873,458,789",
+              "target": "https://example.org/iiif/canvas/COPY1/60/110#xywh=1654,980,463,790",
               "body": [
                 {
                   "type": "Text",
-                  "value": "CopyrightAuthor",
+                  "value": "CopyrightOwner",
                   "purpose": "tagging"
                 },
                 {
@@ -116,19 +116,19 @@
               "motivation": "commenting",
               "label": {
                 "en": [
-                  "'Photograph of Lord Wolseley in general officers uniform with decorations, face almost profile looking to his right, slightly upwards'. "
+                  "George Swan Nottage and Howard John Kennard, 54 Cheapside and 110 Regent Street, London."
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/110#xywh=306,858,763,800",
+              "target": "https://example.org/iiif/canvas/COPY1/60/110#xywh=2085,983,467,789",
               "body": [
                 {
                   "type": "Text",
-                  "value": "DescriptionText",
+                  "value": "CopyrightAuthor",
                   "purpose": "tagging"
                 },
                 {
                   "type": "Text",
-                  "value": "'Photograph of Lord Wolseley in general officers uniform with decorations, face almost profile looking to his right, slightly upwards'. ",
+                  "value": "George Swan Nottage and Howard John Kennard, 54 Cheapside and 110 Regent Street, London.",
                   "purpose": "describing"
                 }
               ]
@@ -142,7 +142,7 @@
                   "29 January 1883"
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/110#xywh=289,1624,2295,253",
+              "target": "https://example.org/iiif/canvas/COPY1/60/110#xywh=257,1756,2277,223",
               "body": [
                 {
                   "type": "Text",
