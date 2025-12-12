@@ -98,7 +98,7 @@
               ]
             },
             {
-              "id": "https://example.org/iiif/annotation/COPY1/60/155/region-6",
+              "id": "https://example.org/iiif/annotation/COPY1/60/155/region-7",
               "type": "Annotation",
               "motivation": "commenting",
               "label": {
@@ -121,7 +121,7 @@
               ]
             },
             {
-              "id": "https://example.org/iiif/annotation/COPY1/60/155/region-7",
+              "id": "https://example.org/iiif/annotation/COPY1/60/155/region-8",
               "type": "Annotation",
               "motivation": "commenting",
               "label": {

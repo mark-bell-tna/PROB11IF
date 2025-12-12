@@ -28,14 +28,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://files.transkribus.eu/iiif/2/LLEDYJIAGSFPNYNTNWIQRHBP/full/full/0/default.jpg",
+                "id": "https://files.transkribus.eu/iiif/2/HLFWBZUGUXPTSJGVILBOPZDY/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3508,
                 "height": 2479,
                 "service": [
                   {
-                    "id": "https://files.transkribus.eu/iiif/2/LLEDYJIAGSFPNYNTNWIQRHBP",
+                    "id": "https://files.transkribus.eu/iiif/2/HLFWBZUGUXPTSJGVILBOPZDY",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
@@ -73,7 +73,7 @@
                   "'Photograph of Charles Street, Westminster, shewing blown down hoarding and debris from explosion of March 15th 1883'. "
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/154#xywh=345,794,791,790",
+              "target": "https://example.org/iiif/canvas/COPY1/60/154#xywh=370,765,776,830",
               "body": [
                 {
                   "type": "Text",
@@ -88,7 +88,7 @@
               ]
             },
             {
-              "id": "https://example.org/iiif/annotation/COPY1/60/154/region-4",
+              "id": "https://example.org/iiif/annotation/COPY1/60/154/region-5",
               "type": "Annotation",
               "motivation": "commenting",
               "label": {
@@ -96,7 +96,7 @@
                   "Frederick William Evans, 246 Old Kent Road SE."
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/154#xywh=1748,797,399,802",
+              "target": "https://example.org/iiif/canvas/COPY1/60/154#xywh=1794,771,401,816",
               "body": [
                 {
                   "type": "Text",
@@ -111,7 +111,7 @@
               ]
             },
             {
-              "id": "https://example.org/iiif/annotation/COPY1/60/154/region-5",
+              "id": "https://example.org/iiif/annotation/COPY1/60/154/region-6",
               "type": "Annotation",
               "motivation": "commenting",
               "label": {
@@ -119,7 +119,7 @@
                   "Frederick William Evans, 246 Old Kent Road SE."
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/154#xywh=2141,800,439,799",
+              "target": "https://example.org/iiif/canvas/COPY1/60/154#xywh=2167,791,470,795",
               "body": [
                 {
                   "type": "Text",
@@ -134,7 +134,7 @@
               ]
             },
             {
-              "id": "https://example.org/iiif/annotation/COPY1/60/154/region-7",
+              "id": "https://example.org/iiif/annotation/COPY1/60/154/region-8",
               "type": "Annotation",
               "motivation": "commenting",
               "label": {
@@ -142,7 +142,7 @@
                   "20 March 1883"
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/154#xywh=348,1570,2229,226",
+              "target": "https://example.org/iiif/canvas/COPY1/60/154#xywh=352,1571,2296,224",
               "body": [
                 {
                   "type": "Text",
