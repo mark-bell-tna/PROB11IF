@@ -24,37 +24,37 @@
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/iiif/annotation/COPY1/60/156",
+              "id": "https://example.org/iiif/annotation/COPY1/60/160",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://files.transkribus.eu/iiif/2/DLZECJGJOUUXANEUNHOOXYHE/full/full/0/default.jpg",
+                "id": "https://files.transkribus.eu/iiif/2/BDIYCLTMGWNISKCLXVXFOAGA/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3508,
                 "height": 2479,
                 "service": [
                   {
-                    "id": "https://files.transkribus.eu/iiif/2/DLZECJGJOUUXANEUNHOOXYHE",
+                    "id": "https://files.transkribus.eu/iiif/2/BDIYCLTMGWNISKCLXVXFOAGA",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/156"
+              "target": "https://example.org/iiif/canvas/COPY1/60/160"
             },
             {
-              "id": "https://example.org/iiif/annotation/COPY1/60/156/photo",
+              "id": "https://example.org/iiif/annotation/COPY1/60/160/photo",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://files.transkribus.eu/iiif/2/DLZECJGJOUUXANEUNHOOXYHE/315,1576,743,698/full/0/default.jpg",
+                "id": "https://files.transkribus.eu/iiif/2/OEFNBLVBQDPUARREIGIYUKDL/750,275,1298,1589/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "width": 743,
-                "height": 698
+                "width": 1298,
+                "height": 1589
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/156#xywh=100,100,743,698"
+              "target": "https://example.org/iiif/canvas/COPY1/60/160#xywh=100,100,1298,1589"
             }
           ]
         }
@@ -63,7 +63,100 @@
         {
           "id": "https://example.org/iiif/COPY1/60/160/regions",
           "type": "AnnotationPage",
-          "items": []
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/160/region-2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "'Photograph of John Ruskin from a drawing in red chalk by Dante Gabriel Rossetti'. "
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/160#xywh=269,763,784,840",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "DescriptionText",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "'Photograph of John Ruskin from a drawing in red chalk by Dante Gabriel Rossetti'. ",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/160/region-5",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "Crawford John Pocock, 24 Cannon Place, Brighton."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/160#xywh=1731,784,384,818",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightOwner",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "Crawford John Pocock, 24 Cannon Place, Brighton.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/160/region-6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "Edward Fox, 44 Market Street, Brighton."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/160#xywh=2108,793,450,834",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightAuthor",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "Edward Fox, 44 Market Street, Brighton.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/160/region-7",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "7 March 1883"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/160#xywh=329,1594,2206,216",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "FormCompleted",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "7 March 1883",
+                  "purpose": "describing"
+                }
+              ]
+            }
+          ]
         }
       ]
     }

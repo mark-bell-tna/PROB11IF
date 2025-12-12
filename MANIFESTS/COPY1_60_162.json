@@ -24,37 +24,37 @@
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/iiif/annotation/COPY1/60/156",
+              "id": "https://example.org/iiif/annotation/COPY1/60/162",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://files.transkribus.eu/iiif/2/DLZECJGJOUUXANEUNHOOXYHE/full/full/0/default.jpg",
+                "id": "https://files.transkribus.eu/iiif/2/EUXLYVWPQGLYALEEVCHOFBRT/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3508,
                 "height": 2479,
                 "service": [
                   {
-                    "id": "https://files.transkribus.eu/iiif/2/DLZECJGJOUUXANEUNHOOXYHE",
+                    "id": "https://files.transkribus.eu/iiif/2/EUXLYVWPQGLYALEEVCHOFBRT",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/156"
+              "target": "https://example.org/iiif/canvas/COPY1/60/162"
             },
             {
-              "id": "https://example.org/iiif/annotation/COPY1/60/156/photo",
+              "id": "https://example.org/iiif/annotation/COPY1/60/162/photo",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://files.transkribus.eu/iiif/2/DLZECJGJOUUXANEUNHOOXYHE/315,1576,743,698/full/0/default.jpg",
+                "id": "https://files.transkribus.eu/iiif/2/UMSXGVHBCBTTVQPIXLKJAGRD/1854,586,728,1007/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "width": 743,
-                "height": 698
+                "width": 728,
+                "height": 1007
               },
-              "target": "https://example.org/iiif/canvas/COPY1/60/156#xywh=100,100,743,698"
+              "target": "https://example.org/iiif/canvas/COPY1/60/162#xywh=100,100,728,1007"
             }
           ]
         }
@@ -63,7 +63,77 @@
         {
           "id": "https://example.org/iiif/COPY1/60/162/regions",
           "type": "AnnotationPage",
-          "items": []
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/162/region-2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "'Photograph of Mrs A Maddick in evening dress, face turned to her right'. "
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/162#xywh=358,839,845,797",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "DescriptionText",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "'Photograph of Mrs A Maddick in evening dress, face turned to her right'. ",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/162/region-4",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "W and D Downey, 57 and 61 Ebury Street, London."
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/162#xywh=1706,828,393,848",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "CopyrightOwner",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "W and D Downey, 57 and 61 Ebury Street, London.",
+                  "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/60/162/region-5",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": {
+                "en": [
+                  "9 March 1883"
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/60/162#xywh=446,1608,1748,175",
+              "body": [
+                {
+                  "type": "Text",
+                  "value": "FormCompleted",
+                  "purpose": "tagging"
+                },
+                {
+                  "type": "Text",
+                  "value": "9 March 1883",
+                  "purpose": "describing"
+                }
+              ]
+            }
+          ]
         }
       ]
     }
