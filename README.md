@@ -1,2 +1,2 @@
-# PROB11IF
-IIIF manifests for PROB 11 series
+# COPY1IIF
+IIIF manifests for COPY 1 series
